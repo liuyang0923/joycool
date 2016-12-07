@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="WEB-INF/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.0"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/activation.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/avalon-excalibur-4.1.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/avalon-framework.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/cnjsputils-1.0.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-digester.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-fileupload-1.1.1.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-fileupload.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-io-1.1.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-validator.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/gson-2.2.2.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/jakarta-oro.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/jcommon-1.0.0-rc1.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/jdom.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/jfreechart-1.0.0-rc1.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/junit.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/log4j-1.2.13.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/mailapi.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/mysql-connector-java-3.1.8-bin.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/oscache-2.3.2.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/push.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/smtp.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/struts.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/xmlParserAPIs.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
