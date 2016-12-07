@@ -1,0 +1,11 @@
+id:id:int
+name:name:String
+link:link:String
+remark:remark:String
+createDatetime:create_datetime:String
+maxHits:max_hits:int
+maxMobile:max_mobile:int
+currentHits:current_hits:int
+currentMobile:current_mobile:int
+lastUpdateTime:last_update_time:String
+script:script:String

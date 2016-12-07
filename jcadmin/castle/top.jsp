@@ -1,0 +1,1 @@
+<%@ page contentType="text/html;charset=utf-8"%><%@ page import="java.util.*"%><%@ page import="net.joycool.wap.util.*"%><%@ page import="net.joycool.wap.framework.*"%><%@ page import="net.joycool.wap.bean.dummy.DummyProductBean" %><%@ page import="net.joycool.wap.spec.castle.*" %><%@ page import="net.joycool.wap.bean.PagingBean" %><%@include file="../filter.jsp"%>

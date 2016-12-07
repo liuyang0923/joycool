@@ -1,0 +1,5 @@
+id:id:int
+linkId:link_id:int
+date:log_date:String
+mobile:mobile:String
+createDatetime:create_datetime:String

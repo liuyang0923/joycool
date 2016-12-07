@@ -1,0 +1,6 @@
+id:id:int
+testId:test_id:int
+questionCode:question_code:int
+answerCode:answer_code:String
+userId:user_id:int
+createDatetime:create_datetime:String

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+<form-beans>
+</form-beans>
+
+  <global-exceptions>
+
+    <exception type="java.lang.Exception"
+               key=""
+               handler="net.joycool.wap.framework.MyExceptionHandler"/>
+
+  </global-exceptions>
+
+  <global-forwards>
+
+    <forward name="systemFailure"
+             path="/failure.jsp"
+             redirect="false" contextRelative="true"/>
+
+  </global-forwards>
+
+  <action-mappings>    
+
+    <action path="/news/NewsInfo"
+            type="net.joycool.wap.action.news.NewsInfoAction">
+
+      <forward name="success"
+               path="/news/newsInfo.jsp"
+               redirect="false"/>
+
+    </action>
+
+    <action path="/news/NewsCataList"
+            type="net.joycool.wap.action.news.NewsCataListAction">
+      <forward name="success"
+               path="/news/newsCataList.jsp"
+               redirect="false"/>
+      <forward name="newsList"
+               path="/news/newsList.jsp"
+               redirect="false"/>
+    </action>
+
+    <action path="/image/ImageInfo"
+            type="net.joycool.wap.action.image.ImageInfoAction">
+
+      <forward name="success"
+               path="/image/imageInfo.jsp"
+               redirect="false"/>
+
+    </action>
+
+    <action path="/image/ImageCataList"
+            type="net.joycool.wap.action.image.ImageCataListAction">
+      <forward name="success"
+               path="/image/imageCataList.jsp"
+               redirect="false"/>
+      <forward name="imageList"
+               path="/image/imageList.jsp"
+               redirect="false"/>
+    </action>
+
+    <action path="/image/ImageDownLoad"
+            type="net.joycool.wap.action.image.ImageDownLoadAction">
+      <forward name="success"
+               path="/image/imageDownLoad.jsp"
+               redirect="false"/>
+    </action>
+
+    <action path="/ebook/EBookCataList"
+            type="net.joycool.wap.action.ebook.EBookCataListAction">
+      <forward name="success"
+               path="/ebook/ebookCataList.jsp"
+               redirect="false"/>
+      <forward name="ebookList"
+               path="/ebook/ebookList.jsp"
+               redirect="false"/>
+    </action>
+
+    <action path="/ebook/EBookInfo"
+            type="net.joycool.wap.action.ebook.EBookInfoAction">
+
+      <forward name="success"
+               path="/ebook/ebookInfo.jsp"
+               redirect="false"/>
+    </action>
+
+    <action path="/ebook/EBookDownloadList"
+            type="net.joycool.wap.action.ebook.EBookDownloadListAction">
+      <forward name="success"
+               path="/ebook/ebookDownloadList.jsp"
+               redirect="false"/>
+    </action>
+
+    <action path="/ebook/EBookReadList"
+            type="net.joycool.wap.action.ebook.EBookReadListAction">
+      <forward name="success"
+               path="/ebook/ebookReadList.jsp"
+               redirect="false"/>
+    </action>
+
+    <action path="/ebook/EBookRead"
+            type="net.joycool.wap.action.ebook.EBookReadAction">
+      <forward name="success"
+               path="/ebook/ebookRead.jsp"
+               redirect="false"/>
+    </action>
+
+    <action path="/image/SearchImage"
+            type="net.joycool.wap.action.image.SearchImageAction">
+      <forward name="success"
+               path="/image/result.jsp"
+               redirect="false"/>
+    </action>
+
+    <action path="/ebook/SearchEBook"
+            type="net.joycool.wap.action.ebook.SearchEBookAction">
+      <forward name="success"
+               path="/ebook/result.jsp"
+               redirect="false"/>
+    </action>
+    
+    <action path="/image/SearchInfo"
+            type="net.joycool.wap.action.image.SearchInfoAction">
+      <forward name="success"
+               path="/image/searchInfo.jsp"
+               redirect="false"/>
+    </action>
+    
+    <action path="/ebook/SearchInfo"
+            type="net.joycool.wap.action.ebook.SearchInfoAction">
+      <forward name="success"
+               path="/ebook/searchInfo.jsp"
+               redirect="false"/>
+    </action>
+    
+    <action path="/game/GameCataList"
+            type="net.joycool.wap.action.game.GameCataListAction">
+      <forward name="success"
+               path="/game/gameCataList.jsp"
+               redirect="false"/>
+      <forward name="gameList"
+               path="/game/gameList.jsp"
+               redirect="false"/>
+    </action>
+    
+    <action path="/game/GameInfo"
+            type="net.joycool.wap.action.game.GameInfoAction">
+
+      <forward name="success"
+               path="/game/gameInfo.jsp"
+               redirect="false"/>
+    </action>
+    
+    <action path="/game/SearchGame"
+            type="net.joycool.wap.action.game.SearchGameAction">
+      <forward name="success"
+               path="/game/result.jsp"
+               redirect="false"/>
+    </action>
+    
+
+  </action-mappings>
+
+</struts-config>
+

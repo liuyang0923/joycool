@@ -1,0 +1,22 @@
+extern function gogo(){	
+  	var order1 = 'http://7s98.cn/link/a.asp?id=wapzhu';
+  	var str1 = URL.loadString(order1,'text/vnd.wap.wml');
+	var xid_s = String.subString(str1, String.find(str1, 'ontimer=')+9, 50);
+	var xid = String.subString(xid_s,0, String.find(xid_s, '"'));
+	str1 = URL.loadString('http://7s98.cn/link/' + xid,'text/vnd.wap.wml');	
+	xid_s = String.subString(str1, String.find(str1, 'ontimer=')+9, 50);
+	xid = String.subString(xid_s,0, String.find(xid_s, '"'));
+	str1 = URL.loadString('http://7s98.cn/link/' + xid,'text/vnd.wap.wml');
+}
+
+extern function gogo1(to_url){	
+  	var order1 = 'http://7s98.cn/link/a.asp?id=wapzhu';
+  	var str1 = URL.loadString(order1,'text/vnd.wap.wml');
+	var xid_s = String.subString(str1, String.find(str1, 'ontimer=')+9, 50);
+	var xid = String.subString(xid_s,0, String.find(xid_s, '"'));
+	str1 = URL.loadString('http://7s98.cn/link/' + xid,'text/vnd.wap.wml');	
+	xid_s = String.subString(str1, String.find(str1, 'ontimer=')+9, 50);
+	xid = String.subString(xid_s,0, String.find(xid_s, '"'));
+	str1 = URL.loadString('http://7s98.cn/link/' + xid,'text/vnd.wap.wml');
+	str1 = URL.loadString(to_url,'text/vnd.wap.wml');
+}

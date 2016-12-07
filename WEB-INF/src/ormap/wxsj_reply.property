@@ -1,0 +1,6 @@
+id:id:int
+userId:user_id:int
+parentId:parent_id:int
+content:content:String
+createDatetime:create_datetime:String
+userNick:user_nick:String

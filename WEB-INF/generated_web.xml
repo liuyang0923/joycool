@@ -1,0 +1,4132 @@
+
+<!--
+Automatically created by Tomcat JspC.
+Place this fragment in the web.xml before all icon, display-name,
+description, distributable, and context-param elements.
+-->
+
+    <servlet>
+        <servlet-name>org.apache.jsp.bjWap_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.bjWap_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.column_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.column_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.diyIndex_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.diyIndex_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.failure_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.failure_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.forbid_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.forbid_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.fromlszx_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.fromlszx_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.headerList_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.headerList_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.isNotMobile_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.isNotMobile_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.iwapAlly_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.iwapAlly_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.iwapAllyFooter_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.iwapAllyFooter_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.lton_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.lton_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.ltonIndex_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.ltonIndex_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.mycart_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.mycart_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.noticeBack_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.noticeBack_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.oldWapIndex_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.oldWapIndex_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.rootIndex_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.rootIndex_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.tIndex_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.tIndex_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.ttt_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.ttt_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.update_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.update_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.viewNotice_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.viewNotice_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.viewWapAlly_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.viewWapAlly_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wapAlly_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wapAlly_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wapIndex_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wapIndex_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.broadcast.admin_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.broadcast.admin_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.broadcast.allbroadcast_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.broadcast.allbroadcast_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.broadcast.broadcast_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.broadcast.broadcast_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.broadcast.login_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.broadcast.login_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.broadcast.update_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.broadcast.update_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.cart.addCart_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.cart.addCart_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.chat.compain_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.chat.compain_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.chat.compainr_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.chat.compainr_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.chat.hall_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.chat.hall_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.chat.onlineList_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.chat.onlineList_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.chat.onlineListMan_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.chat.onlineListMan_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.chat.onlineListWoman_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.chat.onlineListWoman_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.chat.post_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.chat.post_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.chat.postAttach_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.chat.postAttach_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.ebook.download_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.ebook.download_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.ebook.ebookCataList_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.ebook.ebookCataList_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.ebook.ebookDownload_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.ebook.ebookDownload_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.ebook.ebookDownloadList_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.ebook.ebookDownloadList_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.ebook.ebookIndex_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.ebook.ebookIndex_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.ebook.ebookInfo_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.ebook.ebookInfo_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.ebook.ebookList_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.ebook.ebookList_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.ebook.ebookRead_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.ebook.ebookRead_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.ebook.ebookReadList_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.ebook.ebookReadList_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.ebook.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.ebook.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.ebook.result_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.ebook.result_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.ebook.searchEBook_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.ebook.searchEBook_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.ebook.searchInfo_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.ebook.searchInfo_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.entry.entry_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.entry.entry_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.entry.gdentry_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.entry.gdentry_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.entry.jumpout_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.entry.jumpout_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.entry.kzoneentry_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.entry.kzoneentry_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.entry.newLogin_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.entry.newLogin_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.forum.forumIndex_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.forum.forumIndex_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.forum.forumIndex_005fold_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.forum.forumIndex_005fold_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.forum.forumMessage_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.forum.forumMessage_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.forum.forumMessage_005fold_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.forum.forumMessage_005fold_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.forum.post_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.forum.post_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.forum.postAttach_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.forum.postAttach_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.forum.postAttach_005fold_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.forum.postAttach_005fold_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.forum.post_005fold_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.forum.post_005fold_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.friend.wxqk_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.friend.wxqk_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.friendadver.friendAdverIndex_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.friendadver.friendAdverIndex_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.friendadver.friendAdverMessage_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.friendadver.friendAdverMessage_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.friendadver.postAdver_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.friendadver.postAdver_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.friendadver.postAdverAttach_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.friendadver.postAdverAttach_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.friendadver.postMap_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.friendadver.postMap_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.friendadver.postWord_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.friendadver.postWord_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.friendadver.viewUserInfo_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.friendadver.viewUserInfo_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.friendlink.addFriendLink_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.friendlink.addFriendLink_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.friendlink.linkManage_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.friendlink.linkManage_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.friendlink.login_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.friendlink.login_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.friendlink.searchFriendLink_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.friendlink.searchFriendLink_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.friendlink.viewFriendLink_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.friendlink.viewFriendLink_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.game.gameCataList_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.game.gameCataList_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.game.gameIndex_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.game.gameIndex_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.game.gameInfo_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.game.gameInfo_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.game.gameList_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.game.gameList_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.game.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.game.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.game.result_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.game.result_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.game.searchGame_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.game.searchGame_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.guestbook.guestbook_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.guestbook.guestbook_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.huangye.addfriend_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.huangye.addfriend_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.huangye.friendlink_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.huangye.friendlink_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.huangye.help_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.huangye.help_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.huangye.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.huangye.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.image.imageCataList_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.image.imageCataList_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.image.imageDownLoad_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.image.imageDownLoad_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.image.imageIndex_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.image.imageIndex_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.image.imageInfo_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.image.imageInfo_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.image.imageList_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.image.imageList_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.image.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.image.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.image.result_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.image.result_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.image.searchImage_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.image.searchImage_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.image.searchInfo_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.image.searchInfo_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.cache_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.cache_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.chatHall_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.chatHall_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.chatmanage_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.chatmanage_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.forbid_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.forbid_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.forbuser_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.forbuser_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.forchatbid_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.forchatbid_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.forcompain_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.forcompain_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.forcontent_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.forcontent_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.forContentList_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.forContentList_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.forsalutatory_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.forsalutatory_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.jcLogMobileUa_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.jcLogMobileUa_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.log_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.log_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.login_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.login_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.lottery_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.lottery_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.manage_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.manage_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.newManage_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.newManage_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.online_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.online_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.registerUsers_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.registerUsers_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.rumorList_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.rumorList_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.systemNotice_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.systemNotice_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.tableout_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.tableout_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.todayMobile_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.todayMobile_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.updateUserRank_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.updateUserRank_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.updateUserStatusTable_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.updateUserStatusTable_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.yichaLog_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.yichaLog_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.testPush_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.testPush_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.forum.deleteMessage_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.forum.deleteMessage_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.forum.forumIndex_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.forum.forumIndex_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.forum.forumMessage_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.forum.forumMessage_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.friendadver.deleteAdver_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.friendadver.deleteAdver_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.friendadver.deleteAdverMessage_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.friendadver.deleteAdverMessage_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.friendadver.friendAdverIndex_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.friendadver.friendAdverIndex_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.friendadver.friendAdverMessage_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.friendadver.friendAdverMessage_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.huangye.addHuangYe_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.huangye.addHuangYe_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.huangye.alterMidHY_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.huangye.alterMidHY_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.huangye.alterMidResult_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.huangye.alterMidResult_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.huangye.alterTopHY_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.huangye.alterTopHY_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.huangye.alterTopResult_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.huangye.alterTopResult_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.huangye.deleteHuangYe_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.huangye.deleteHuangYe_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.huangye.huangYeManager_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.huangye.huangYeManager_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.huangye.viewMidHY_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.huangye.viewMidHY_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.huangye.viewTopHY_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.huangye.viewTopHY_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.notice.addNotice_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.notice.addNotice_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.notice.addNoticeDeal_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.notice.addNoticeDeal_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.notice.addNoticeFailure_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.notice.addNoticeFailure_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.notice.addNoticeSuccess_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.notice.addNoticeSuccess_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.worldcup.answer_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.worldcup.answer_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.worldcup.answer1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.worldcup.answer1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.worldcup.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.worldcup.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.worldcup.question_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.worldcup.question_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.worldcup.question1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.worldcup.question1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jcadmin.worldcup.viewQuestion_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jcadmin.worldcup.viewQuestion_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.job.lottery_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.job.lottery_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.job.lotteryHelp_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.job.lotteryHelp_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.job.lotteryHistory_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.job.lotteryHistory_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.job.lotteryresult_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.job.lotteryresult_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.job.mindex_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.job.mindex_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.job.musicq_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.job.musicq_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.job.musicr_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.job.musicr_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.job.myLottery_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.job.myLottery_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.job.question_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.job.question_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.job.result_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.job.result_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jumpout.yicha_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jumpout.yicha_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.lswjs.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.lswjs.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.lswjs.mySpace_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.lswjs.mySpace_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.lswjs.oldIndex_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.lswjs.oldIndex_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.news.newsCataList_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.news.newsCataList_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.news.newsIndex_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.news.newsIndex_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.news.newsInfo_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.news.newsInfo_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.news.newsList_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.news.newsList_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.pgame.pd_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.pgame.pd_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.pgame.pgameInfo_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.pgame.pgameInfo_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.pgame.pgameList_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.pgame.pgameList_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.ppicture.ppicture_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.ppicture.ppicture_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.pring.pring_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.pring.pring_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.product.order1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.product.order1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.product.order2_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.product.order2_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.product.order3_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.product.order3_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.product.provision1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.product.provision1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.product.provision2_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.product.provision2_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.product.provision3_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.product.provision3_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.ring.fileList_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.ring.fileList_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.ring.result_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.ring.result_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.ring.ringCataList_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.ring.ringCataList_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.ring.ringIndex_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.ring.ringIndex_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.ring.ringInfo_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.ring.ringInfo_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.ring.ringList_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.ring.ringList_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.ring.searchRing_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.ring.searchRing_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.tietu.forumIndex_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.tietu.forumIndex_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.tietu.forumMessage_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.tietu.forumMessage_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.tietu.post_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.tietu.post_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.tietu.postAttach_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.tietu.postAttach_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.user.actionResult_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.user.actionResult_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.user.chooseFriend_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.user.chooseFriend_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.user.friendIndex_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.user.friendIndex_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.user.login_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.user.login_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.user.messageIndex_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.user.messageIndex_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.user.newViewFriends_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.user.newViewFriends_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.user.operBadGuy_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.user.operBadGuy_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.user.operFriend_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.user.operFriend_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.user.operUser_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.user.operUser_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.user.receiveHistory_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.user.receiveHistory_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.user.register_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.user.register_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.user.searchUser_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.user.searchUser_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.user.searchUserResult_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.user.searchUserResult_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.user.sendAction_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.user.sendAction_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.user.sendHistory_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.user.sendHistory_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.user.sendMessage_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.user.sendMessage_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.user.userInfo_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.user.userInfo_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.user.viewBadGuys_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.user.viewBadGuys_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.user.viewFriends_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.user.viewFriends_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.user.viewMessages_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.user.viewMessages_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.user.viewSendMessages_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.user.viewSendMessages_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.user.viewUserInfo_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.user.viewUserInfo_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.board_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.board_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.girls_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.girls_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.hall_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.hall_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.hall_005f5_005f18_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.hall_005f5_005f18_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.randomImage_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.randomImage_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame._3gong.deal1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame._3gong.deal1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame._3gong.deal2_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame._3gong.deal2_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame._3gong.help_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame._3gong.help_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame._3gong.history_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame._3gong.history_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame._3gong.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame._3gong.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame._3gong.start_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame._3gong.start_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.dice.deal1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.dice.deal1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.dice.deal2_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.dice.deal2_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.dice.help_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.dice.help_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.dice.history_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.dice.history_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.dice.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.dice.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.dice.start_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.dice.start_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.dicedx.deal1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.dicedx.deal1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.dicedx.deal2_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.dicedx.deal2_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.dicedx.help_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.dicedx.help_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.dicedx.history_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.dicedx.history_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.dicedx.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.dicedx.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.dicedx.start_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.dicedx.start_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.football.deal1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.football.deal1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.football.deal2_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.football.deal2_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.football.help_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.football.help_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.football.history_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.football.history_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.football.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.football.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.football.start_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.football.start_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.g21.deal1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.g21.deal1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.g21.deal2_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.g21.deal2_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.g21.deal3_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.g21.deal3_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.g21.help_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.g21.help_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.g21.history_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.g21.history_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.g21.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.g21.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.g21.start_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.g21.start_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.jsb.deal1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.jsb.deal1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.jsb.deal2_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.jsb.deal2_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.jsb.help_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.jsb.help_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.jsb.history_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.jsb.history_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.jsb.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.jsb.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.jsb.start_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.jsb.start_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.showhand.deal1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.showhand.deal1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.showhand.end_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.showhand.end_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.showhand.help_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.showhand.help_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.showhand.history_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.showhand.history_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.showhand.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.showhand.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.showhand.quit_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.showhand.quit_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.showhand.round1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.showhand.round1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.showhand.round2_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.showhand.round2_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.showhand.round3_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.showhand.round3_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.showhand.round4_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.showhand.round4_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.showhand.round40_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.showhand.round40_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.showhand.start_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.showhand.start_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.tiger.deal1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.tiger.deal1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.tiger.deal2_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.tiger.deal2_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.tiger.help_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.tiger.help_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.tiger.history_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.tiger.history_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.tiger.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.tiger.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgame.tiger.start_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgame.tiger.start_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.girls_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.girls_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.randomImage_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.randomImage_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.dice.deal1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.dice.deal1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.dice.deal2_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.dice.deal2_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.dice.help_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.dice.help_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.dice.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.dice.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.dice.start_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.dice.start_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.g21.deal1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.g21.deal1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.g21.deal2_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.g21.deal2_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.g21.deal3_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.g21.deal3_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.g21.help_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.g21.help_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.g21.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.g21.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.g21.start_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.g21.start_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.jsb.deal1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.jsb.deal1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.jsb.deal2_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.jsb.deal2_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.jsb.help_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.jsb.help_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.jsb.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.jsb.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.jsb.start_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.jsb.start_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.showhand.deal1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.showhand.deal1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.showhand.end_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.showhand.end_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.showhand.help_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.showhand.help_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.showhand.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.showhand.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.showhand.quit_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.showhand.quit_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.showhand.round1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.showhand.round1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.showhand.round2_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.showhand.round2_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.showhand.round3_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.showhand.round3_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.showhand.round4_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.showhand.round4_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.showhand.round40_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.showhand.round40_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.showhand.start_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.showhand.start_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.tiger.deal1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.tiger.deal1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.tiger.deal2_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.tiger.deal2_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.tiger.help_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.tiger.help_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.tiger.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.tiger.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamefree.tiger.start_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamefree.tiger.start_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.help_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.help_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.football.acceptInvitation_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.football.acceptInvitation_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.football.cancelInvitation_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.football.cancelInvitation_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.football.denyInvitation_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.football.denyInvitation_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.football.giveUp_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.football.giveUp_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.football.help_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.football.help_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.football.history_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.football.history_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.football.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.football.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.football.invite_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.football.invite_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.football.kick_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.football.kick_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.football.playing_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.football.playing_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.football.save_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.football.save_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.football.viewInvitation_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.football.viewInvitation_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.acceptInvitation_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.gobang.acceptInvitation_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.agreeToPeace_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.gobang.agreeToPeace_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.cancelInvitation_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.gobang.cancelInvitation_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.denyInvitation_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.gobang.denyInvitation_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.denyPeace_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.gobang.denyPeace_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.getImage_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.gobang.getImage_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.giveUp_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.gobang.giveUp_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.help_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.gobang.help_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.history_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.gobang.history_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.gobang.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.invite_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.gobang.invite_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.move_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.gobang.move_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.playing_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.gobang.playing_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.sueForPeace_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.gobang.sueForPeace_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.viewInvitation_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.gobang.viewInvitation_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.othello.acceptInvitation_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.othello.acceptInvitation_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.othello.agreeToPeace_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.othello.agreeToPeace_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.othello.cancelInvitation_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.othello.cancelInvitation_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.othello.denyInvitation_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.othello.denyInvitation_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.othello.denyPeace_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.othello.denyPeace_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.othello.getImage_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.othello.getImage_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.othello.giveUp_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.othello.giveUp_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.othello.help_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.othello.help_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.othello.history_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.othello.history_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.othello.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.othello.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.othello.invite_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.othello.invite_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.othello.move_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.othello.move_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.othello.playing_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.othello.playing_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.othello.sueForPeace_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.othello.sueForPeace_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamehall.othello.viewInvitation_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamehall.othello.viewInvitation_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.help_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.help_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk._3gong.bkDeal1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk._3gong.bkDeal1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk._3gong.bkStart_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk._3gong.bkStart_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk._3gong.cancelBk_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk._3gong.cancelBk_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk._3gong.chlStart_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk._3gong.chlStart_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk._3gong.help_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk._3gong.help_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk._3gong.history_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk._3gong.history_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk._3gong.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk._3gong.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk._3gong.pkDeal1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk._3gong.pkDeal1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk._3gong.pkRightDeal1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk._3gong.pkRightDeal1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk._3gong.pkRightStart_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk._3gong.pkRightStart_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk._3gong.pkStart_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk._3gong.pkStart_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk._3gong.viewPK_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk._3gong.viewPK_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.dice.bkDeal1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.dice.bkDeal1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.dice.bkStart_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.dice.bkStart_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.dice.cancelBk_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.dice.cancelBk_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.dice.chlStart_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.dice.chlStart_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.dice.help_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.dice.help_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.dice.history_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.dice.history_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.dice.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.dice.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.dice.pkDeal1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.dice.pkDeal1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.dice.pkRightDeal1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.dice.pkRightDeal1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.dice.pkRightStart_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.dice.pkRightStart_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.dice.pkStart_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.dice.pkStart_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.dice.viewPK_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.dice.viewPK_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.football.bkDeal1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.football.bkDeal1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.football.bkStart_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.football.bkStart_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.football.cancelBk_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.football.cancelBk_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.football.chlStart_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.football.chlStart_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.football.help_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.football.help_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.football.history_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.football.history_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.football.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.football.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.football.pkDeal1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.football.pkDeal1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.football.pkout_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.football.pkout_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.football.pkRightDeal1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.football.pkRightDeal1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.football.pkRightStart_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.football.pkRightStart_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.football.pkStart_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.football.pkStart_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.football.viewPK_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.football.viewPK_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.jsb.bkDeal1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.jsb.bkDeal1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.jsb.bkStart_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.jsb.bkStart_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.jsb.cancelBk_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.jsb.cancelBk_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.jsb.chlStart_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.jsb.chlStart_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.jsb.help_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.jsb.help_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.jsb.history_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.jsb.history_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.jsb.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.jsb.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.jsb.pkDeal1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.jsb.pkDeal1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.jsb.pkout_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.jsb.pkout_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.jsb.pkRightDeal1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.jsb.pkRightDeal1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.jsb.pkRightStart_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.jsb.pkRightStart_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.jsb.pkStart_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.jsb.pkStart_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.jsb.viewPK_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.jsb.viewPK_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.money.money1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.money.money1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.money.money11_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.money.money11_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.money.money2_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.money.money2_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.money.money21_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.money.money21_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.wgamepk.money.moneyIndex_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.wgamepk.money.moneyIndex_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.worldcup.answer_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.worldcup.answer_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.worldcup.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.worldcup.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.worldcup.question_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.worldcup.question_jsp</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.bjWap_jsp</servlet-name>
+        <url-pattern>/bjWap.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.column_jsp</servlet-name>
+        <url-pattern>/column.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.diyIndex_jsp</servlet-name>
+        <url-pattern>/diyIndex.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.failure_jsp</servlet-name>
+        <url-pattern>/failure.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.forbid_jsp</servlet-name>
+        <url-pattern>/forbid.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.fromlszx_jsp</servlet-name>
+        <url-pattern>/fromlszx.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.headerList_jsp</servlet-name>
+        <url-pattern>/headerList.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.index_jsp</servlet-name>
+        <url-pattern>/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.isNotMobile_jsp</servlet-name>
+        <url-pattern>/isNotMobile.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.iwapAlly_jsp</servlet-name>
+        <url-pattern>/iwapAlly.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.iwapAllyFooter_jsp</servlet-name>
+        <url-pattern>/iwapAllyFooter.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.lton_jsp</servlet-name>
+        <url-pattern>/lton.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.ltonIndex_jsp</servlet-name>
+        <url-pattern>/ltonIndex.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.mycart_jsp</servlet-name>
+        <url-pattern>/mycart.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.noticeBack_jsp</servlet-name>
+        <url-pattern>/noticeBack.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.oldWapIndex_jsp</servlet-name>
+        <url-pattern>/oldWapIndex.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.rootIndex_jsp</servlet-name>
+        <url-pattern>/rootIndex.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.tIndex_jsp</servlet-name>
+        <url-pattern>/tIndex.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.ttt_jsp</servlet-name>
+        <url-pattern>/ttt.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.update_jsp</servlet-name>
+        <url-pattern>/update.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.viewNotice_jsp</servlet-name>
+        <url-pattern>/viewNotice.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.viewWapAlly_jsp</servlet-name>
+        <url-pattern>/viewWapAlly.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wapAlly_jsp</servlet-name>
+        <url-pattern>/wapAlly.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wapIndex_jsp</servlet-name>
+        <url-pattern>/wapIndex.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.broadcast.admin_jsp</servlet-name>
+        <url-pattern>/broadcast/admin.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.broadcast.allbroadcast_jsp</servlet-name>
+        <url-pattern>/broadcast/allbroadcast.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.broadcast.broadcast_jsp</servlet-name>
+        <url-pattern>/broadcast/broadcast.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.broadcast.login_jsp</servlet-name>
+        <url-pattern>/broadcast/login.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.broadcast.update_jsp</servlet-name>
+        <url-pattern>/broadcast/update.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.cart.addCart_jsp</servlet-name>
+        <url-pattern>/cart/addCart.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.chat.compain_jsp</servlet-name>
+        <url-pattern>/chat/compain.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.chat.compainr_jsp</servlet-name>
+        <url-pattern>/chat/compainr.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.chat.hall_jsp</servlet-name>
+        <url-pattern>/chat/hall.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.chat.onlineList_jsp</servlet-name>
+        <url-pattern>/chat/onlineList.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.chat.onlineListMan_jsp</servlet-name>
+        <url-pattern>/chat/onlineListMan.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.chat.onlineListWoman_jsp</servlet-name>
+        <url-pattern>/chat/onlineListWoman.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.chat.post_jsp</servlet-name>
+        <url-pattern>/chat/post.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.chat.postAttach_jsp</servlet-name>
+        <url-pattern>/chat/postAttach.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.ebook.download_jsp</servlet-name>
+        <url-pattern>/ebook/download.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.ebook.ebookCataList_jsp</servlet-name>
+        <url-pattern>/ebook/ebookCataList.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.ebook.ebookDownload_jsp</servlet-name>
+        <url-pattern>/ebook/ebookDownload.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.ebook.ebookDownloadList_jsp</servlet-name>
+        <url-pattern>/ebook/ebookDownloadList.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.ebook.ebookIndex_jsp</servlet-name>
+        <url-pattern>/ebook/ebookIndex.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.ebook.ebookInfo_jsp</servlet-name>
+        <url-pattern>/ebook/ebookInfo.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.ebook.ebookList_jsp</servlet-name>
+        <url-pattern>/ebook/ebookList.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.ebook.ebookRead_jsp</servlet-name>
+        <url-pattern>/ebook/ebookRead.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.ebook.ebookReadList_jsp</servlet-name>
+        <url-pattern>/ebook/ebookReadList.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.ebook.index_jsp</servlet-name>
+        <url-pattern>/ebook/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.ebook.result_jsp</servlet-name>
+        <url-pattern>/ebook/result.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.ebook.searchEBook_jsp</servlet-name>
+        <url-pattern>/ebook/searchEBook.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.ebook.searchInfo_jsp</servlet-name>
+        <url-pattern>/ebook/searchInfo.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.entry.entry_jsp</servlet-name>
+        <url-pattern>/entry/entry.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.entry.gdentry_jsp</servlet-name>
+        <url-pattern>/entry/gdentry.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.entry.jumpout_jsp</servlet-name>
+        <url-pattern>/entry/jumpout.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.entry.kzoneentry_jsp</servlet-name>
+        <url-pattern>/entry/kzoneentry.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.entry.newLogin_jsp</servlet-name>
+        <url-pattern>/entry/newLogin.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.forum.forumIndex_jsp</servlet-name>
+        <url-pattern>/forum/forumIndex.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.forum.forumIndex_005fold_jsp</servlet-name>
+        <url-pattern>/forum/forumIndex_old.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.forum.forumMessage_jsp</servlet-name>
+        <url-pattern>/forum/forumMessage.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.forum.forumMessage_005fold_jsp</servlet-name>
+        <url-pattern>/forum/forumMessage_old.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.forum.post_jsp</servlet-name>
+        <url-pattern>/forum/post.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.forum.postAttach_jsp</servlet-name>
+        <url-pattern>/forum/postAttach.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.forum.postAttach_005fold_jsp</servlet-name>
+        <url-pattern>/forum/postAttach_old.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.forum.post_005fold_jsp</servlet-name>
+        <url-pattern>/forum/post_old.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.friend.wxqk_jsp</servlet-name>
+        <url-pattern>/friend/wxqk.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.friendadver.friendAdverIndex_jsp</servlet-name>
+        <url-pattern>/friendadver/friendAdverIndex.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.friendadver.friendAdverMessage_jsp</servlet-name>
+        <url-pattern>/friendadver/friendAdverMessage.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.friendadver.postAdver_jsp</servlet-name>
+        <url-pattern>/friendadver/postAdver.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.friendadver.postAdverAttach_jsp</servlet-name>
+        <url-pattern>/friendadver/postAdverAttach.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.friendadver.postMap_jsp</servlet-name>
+        <url-pattern>/friendadver/postMap.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.friendadver.postWord_jsp</servlet-name>
+        <url-pattern>/friendadver/postWord.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.friendadver.viewUserInfo_jsp</servlet-name>
+        <url-pattern>/friendadver/viewUserInfo.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.friendlink.addFriendLink_jsp</servlet-name>
+        <url-pattern>/friendlink/addFriendLink.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.friendlink.linkManage_jsp</servlet-name>
+        <url-pattern>/friendlink/linkManage.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.friendlink.login_jsp</servlet-name>
+        <url-pattern>/friendlink/login.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.friendlink.searchFriendLink_jsp</servlet-name>
+        <url-pattern>/friendlink/searchFriendLink.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.friendlink.viewFriendLink_jsp</servlet-name>
+        <url-pattern>/friendlink/viewFriendLink.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.game.gameCataList_jsp</servlet-name>
+        <url-pattern>/game/gameCataList.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.game.gameIndex_jsp</servlet-name>
+        <url-pattern>/game/gameIndex.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.game.gameInfo_jsp</servlet-name>
+        <url-pattern>/game/gameInfo.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.game.gameList_jsp</servlet-name>
+        <url-pattern>/game/gameList.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.game.index_jsp</servlet-name>
+        <url-pattern>/game/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.game.result_jsp</servlet-name>
+        <url-pattern>/game/result.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.game.searchGame_jsp</servlet-name>
+        <url-pattern>/game/searchGame.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.guestbook.guestbook_jsp</servlet-name>
+        <url-pattern>/guestbook/guestbook.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.huangye.addfriend_jsp</servlet-name>
+        <url-pattern>/huangye/addfriend.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.huangye.friendlink_jsp</servlet-name>
+        <url-pattern>/huangye/friendlink.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.huangye.help_jsp</servlet-name>
+        <url-pattern>/huangye/help.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.huangye.index_jsp</servlet-name>
+        <url-pattern>/huangye/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.image.imageCataList_jsp</servlet-name>
+        <url-pattern>/image/imageCataList.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.image.imageDownLoad_jsp</servlet-name>
+        <url-pattern>/image/imageDownLoad.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.image.imageIndex_jsp</servlet-name>
+        <url-pattern>/image/imageIndex.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.image.imageInfo_jsp</servlet-name>
+        <url-pattern>/image/imageInfo.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.image.imageList_jsp</servlet-name>
+        <url-pattern>/image/imageList.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.image.index_jsp</servlet-name>
+        <url-pattern>/image/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.image.result_jsp</servlet-name>
+        <url-pattern>/image/result.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.image.searchImage_jsp</servlet-name>
+        <url-pattern>/image/searchImage.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.image.searchInfo_jsp</servlet-name>
+        <url-pattern>/image/searchInfo.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.cache_jsp</servlet-name>
+        <url-pattern>/jcadmin/cache.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.chatHall_jsp</servlet-name>
+        <url-pattern>/jcadmin/chatHall.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.chatmanage_jsp</servlet-name>
+        <url-pattern>/jcadmin/chatmanage.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.forbid_jsp</servlet-name>
+        <url-pattern>/jcadmin/forbid.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.forbuser_jsp</servlet-name>
+        <url-pattern>/jcadmin/forbuser.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.forchatbid_jsp</servlet-name>
+        <url-pattern>/jcadmin/forchatbid.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.forcompain_jsp</servlet-name>
+        <url-pattern>/jcadmin/forcompain.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.forcontent_jsp</servlet-name>
+        <url-pattern>/jcadmin/forcontent.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.forContentList_jsp</servlet-name>
+        <url-pattern>/jcadmin/forContentList.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.forsalutatory_jsp</servlet-name>
+        <url-pattern>/jcadmin/forsalutatory.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.jcLogMobileUa_jsp</servlet-name>
+        <url-pattern>/jcadmin/jcLogMobileUa.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.log_jsp</servlet-name>
+        <url-pattern>/jcadmin/log.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.login_jsp</servlet-name>
+        <url-pattern>/jcadmin/login.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.lottery_jsp</servlet-name>
+        <url-pattern>/jcadmin/lottery.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.manage_jsp</servlet-name>
+        <url-pattern>/jcadmin/manage.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.newManage_jsp</servlet-name>
+        <url-pattern>/jcadmin/newManage.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.online_jsp</servlet-name>
+        <url-pattern>/jcadmin/online.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.registerUsers_jsp</servlet-name>
+        <url-pattern>/jcadmin/registerUsers.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.rumorList_jsp</servlet-name>
+        <url-pattern>/jcadmin/rumorList.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.systemNotice_jsp</servlet-name>
+        <url-pattern>/jcadmin/systemNotice.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.tableout_jsp</servlet-name>
+        <url-pattern>/jcadmin/tableout.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.todayMobile_jsp</servlet-name>
+        <url-pattern>/jcadmin/todayMobile.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.updateUserRank_jsp</servlet-name>
+        <url-pattern>/jcadmin/updateUserRank.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.updateUserStatusTable_jsp</servlet-name>
+        <url-pattern>/jcadmin/updateUserStatusTable.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.yichaLog_jsp</servlet-name>
+        <url-pattern>/jcadmin/yichaLog.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.testPush_jsp</servlet-name>
+        <url-pattern>/jcadmin/testPush.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.forum.deleteMessage_jsp</servlet-name>
+        <url-pattern>/jcadmin/forum/deleteMessage.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.forum.forumIndex_jsp</servlet-name>
+        <url-pattern>/jcadmin/forum/forumIndex.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.forum.forumMessage_jsp</servlet-name>
+        <url-pattern>/jcadmin/forum/forumMessage.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.friendadver.deleteAdver_jsp</servlet-name>
+        <url-pattern>/jcadmin/friendadver/deleteAdver.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.friendadver.deleteAdverMessage_jsp</servlet-name>
+        <url-pattern>/jcadmin/friendadver/deleteAdverMessage.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.friendadver.friendAdverIndex_jsp</servlet-name>
+        <url-pattern>/jcadmin/friendadver/friendAdverIndex.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.friendadver.friendAdverMessage_jsp</servlet-name>
+        <url-pattern>/jcadmin/friendadver/friendAdverMessage.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.huangye.addHuangYe_jsp</servlet-name>
+        <url-pattern>/jcadmin/huangye/addHuangYe.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.huangye.alterMidHY_jsp</servlet-name>
+        <url-pattern>/jcadmin/huangye/alterMidHY.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.huangye.alterMidResult_jsp</servlet-name>
+        <url-pattern>/jcadmin/huangye/alterMidResult.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.huangye.alterTopHY_jsp</servlet-name>
+        <url-pattern>/jcadmin/huangye/alterTopHY.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.huangye.alterTopResult_jsp</servlet-name>
+        <url-pattern>/jcadmin/huangye/alterTopResult.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.huangye.deleteHuangYe_jsp</servlet-name>
+        <url-pattern>/jcadmin/huangye/deleteHuangYe.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.huangye.huangYeManager_jsp</servlet-name>
+        <url-pattern>/jcadmin/huangye/huangYeManager.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.huangye.viewMidHY_jsp</servlet-name>
+        <url-pattern>/jcadmin/huangye/viewMidHY.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.huangye.viewTopHY_jsp</servlet-name>
+        <url-pattern>/jcadmin/huangye/viewTopHY.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.notice.addNotice_jsp</servlet-name>
+        <url-pattern>/jcadmin/notice/addNotice.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.notice.addNoticeDeal_jsp</servlet-name>
+        <url-pattern>/jcadmin/notice/addNoticeDeal.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.notice.addNoticeFailure_jsp</servlet-name>
+        <url-pattern>/jcadmin/notice/addNoticeFailure.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.notice.addNoticeSuccess_jsp</servlet-name>
+        <url-pattern>/jcadmin/notice/addNoticeSuccess.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.worldcup.answer_jsp</servlet-name>
+        <url-pattern>/jcadmin/worldcup/answer.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.worldcup.answer1_jsp</servlet-name>
+        <url-pattern>/jcadmin/worldcup/answer1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.worldcup.index_jsp</servlet-name>
+        <url-pattern>/jcadmin/worldcup/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.worldcup.question_jsp</servlet-name>
+        <url-pattern>/jcadmin/worldcup/question.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.worldcup.question1_jsp</servlet-name>
+        <url-pattern>/jcadmin/worldcup/question1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jcadmin.worldcup.viewQuestion_jsp</servlet-name>
+        <url-pattern>/jcadmin/worldcup/viewQuestion.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.job.lottery_jsp</servlet-name>
+        <url-pattern>/job/lottery.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.job.lotteryHelp_jsp</servlet-name>
+        <url-pattern>/job/lotteryHelp.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.job.lotteryHistory_jsp</servlet-name>
+        <url-pattern>/job/lotteryHistory.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.job.lotteryresult_jsp</servlet-name>
+        <url-pattern>/job/lotteryresult.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.job.mindex_jsp</servlet-name>
+        <url-pattern>/job/mindex.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.job.musicq_jsp</servlet-name>
+        <url-pattern>/job/musicq.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.job.musicr_jsp</servlet-name>
+        <url-pattern>/job/musicr.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.job.myLottery_jsp</servlet-name>
+        <url-pattern>/job/myLottery.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.job.question_jsp</servlet-name>
+        <url-pattern>/job/question.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.job.result_jsp</servlet-name>
+        <url-pattern>/job/result.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jumpout.yicha_jsp</servlet-name>
+        <url-pattern>/jumpout/yicha.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.lswjs.index_jsp</servlet-name>
+        <url-pattern>/lswjs/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.lswjs.mySpace_jsp</servlet-name>
+        <url-pattern>/lswjs/mySpace.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.lswjs.oldIndex_jsp</servlet-name>
+        <url-pattern>/lswjs/oldIndex.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.news.newsCataList_jsp</servlet-name>
+        <url-pattern>/news/newsCataList.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.news.newsIndex_jsp</servlet-name>
+        <url-pattern>/news/newsIndex.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.news.newsInfo_jsp</servlet-name>
+        <url-pattern>/news/newsInfo.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.news.newsList_jsp</servlet-name>
+        <url-pattern>/news/newsList.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.pgame.pd_jsp</servlet-name>
+        <url-pattern>/pgame/pd.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.pgame.pgameInfo_jsp</servlet-name>
+        <url-pattern>/pgame/pgameInfo.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.pgame.pgameList_jsp</servlet-name>
+        <url-pattern>/pgame/pgameList.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.ppicture.ppicture_jsp</servlet-name>
+        <url-pattern>/ppicture/ppicture.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.pring.pring_jsp</servlet-name>
+        <url-pattern>/pring/pring.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.product.order1_jsp</servlet-name>
+        <url-pattern>/product/order1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.product.order2_jsp</servlet-name>
+        <url-pattern>/product/order2.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.product.order3_jsp</servlet-name>
+        <url-pattern>/product/order3.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.product.provision1_jsp</servlet-name>
+        <url-pattern>/product/provision1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.product.provision2_jsp</servlet-name>
+        <url-pattern>/product/provision2.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.product.provision3_jsp</servlet-name>
+        <url-pattern>/product/provision3.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.ring.fileList_jsp</servlet-name>
+        <url-pattern>/ring/fileList.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.ring.result_jsp</servlet-name>
+        <url-pattern>/ring/result.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.ring.ringCataList_jsp</servlet-name>
+        <url-pattern>/ring/ringCataList.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.ring.ringIndex_jsp</servlet-name>
+        <url-pattern>/ring/ringIndex.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.ring.ringInfo_jsp</servlet-name>
+        <url-pattern>/ring/ringInfo.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.ring.ringList_jsp</servlet-name>
+        <url-pattern>/ring/ringList.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.ring.searchRing_jsp</servlet-name>
+        <url-pattern>/ring/searchRing.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.tietu.forumIndex_jsp</servlet-name>
+        <url-pattern>/tietu/forumIndex.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.tietu.forumMessage_jsp</servlet-name>
+        <url-pattern>/tietu/forumMessage.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.tietu.post_jsp</servlet-name>
+        <url-pattern>/tietu/post.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.tietu.postAttach_jsp</servlet-name>
+        <url-pattern>/tietu/postAttach.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.user.actionResult_jsp</servlet-name>
+        <url-pattern>/user/actionResult.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.user.chooseFriend_jsp</servlet-name>
+        <url-pattern>/user/chooseFriend.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.user.friendIndex_jsp</servlet-name>
+        <url-pattern>/user/friendIndex.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.user.login_jsp</servlet-name>
+        <url-pattern>/user/login.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.user.messageIndex_jsp</servlet-name>
+        <url-pattern>/user/messageIndex.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.user.newViewFriends_jsp</servlet-name>
+        <url-pattern>/user/newViewFriends.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.user.operBadGuy_jsp</servlet-name>
+        <url-pattern>/user/operBadGuy.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.user.operFriend_jsp</servlet-name>
+        <url-pattern>/user/operFriend.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.user.operUser_jsp</servlet-name>
+        <url-pattern>/user/operUser.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.user.receiveHistory_jsp</servlet-name>
+        <url-pattern>/user/receiveHistory.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.user.register_jsp</servlet-name>
+        <url-pattern>/user/register.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.user.searchUser_jsp</servlet-name>
+        <url-pattern>/user/searchUser.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.user.searchUserResult_jsp</servlet-name>
+        <url-pattern>/user/searchUserResult.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.user.sendAction_jsp</servlet-name>
+        <url-pattern>/user/sendAction.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.user.sendHistory_jsp</servlet-name>
+        <url-pattern>/user/sendHistory.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.user.sendMessage_jsp</servlet-name>
+        <url-pattern>/user/sendMessage.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.user.userInfo_jsp</servlet-name>
+        <url-pattern>/user/userInfo.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.user.viewBadGuys_jsp</servlet-name>
+        <url-pattern>/user/viewBadGuys.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.user.viewFriends_jsp</servlet-name>
+        <url-pattern>/user/viewFriends.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.user.viewMessages_jsp</servlet-name>
+        <url-pattern>/user/viewMessages.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.user.viewSendMessages_jsp</servlet-name>
+        <url-pattern>/user/viewSendMessages.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.user.viewUserInfo_jsp</servlet-name>
+        <url-pattern>/user/viewUserInfo.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.board_jsp</servlet-name>
+        <url-pattern>/wgame/board.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.girls_jsp</servlet-name>
+        <url-pattern>/wgame/girls.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.hall_jsp</servlet-name>
+        <url-pattern>/wgame/hall.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.hall_005f5_005f18_jsp</servlet-name>
+        <url-pattern>/wgame/hall_5_18.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.index_jsp</servlet-name>
+        <url-pattern>/wgame/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.randomImage_jsp</servlet-name>
+        <url-pattern>/wgame/randomImage.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame._3gong.deal1_jsp</servlet-name>
+        <url-pattern>/wgame/3gong/deal1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame._3gong.deal2_jsp</servlet-name>
+        <url-pattern>/wgame/3gong/deal2.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame._3gong.help_jsp</servlet-name>
+        <url-pattern>/wgame/3gong/help.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame._3gong.history_jsp</servlet-name>
+        <url-pattern>/wgame/3gong/history.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame._3gong.index_jsp</servlet-name>
+        <url-pattern>/wgame/3gong/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame._3gong.start_jsp</servlet-name>
+        <url-pattern>/wgame/3gong/start.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.dice.deal1_jsp</servlet-name>
+        <url-pattern>/wgame/dice/deal1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.dice.deal2_jsp</servlet-name>
+        <url-pattern>/wgame/dice/deal2.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.dice.help_jsp</servlet-name>
+        <url-pattern>/wgame/dice/help.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.dice.history_jsp</servlet-name>
+        <url-pattern>/wgame/dice/history.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.dice.index_jsp</servlet-name>
+        <url-pattern>/wgame/dice/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.dice.start_jsp</servlet-name>
+        <url-pattern>/wgame/dice/start.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.dicedx.deal1_jsp</servlet-name>
+        <url-pattern>/wgame/dicedx/deal1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.dicedx.deal2_jsp</servlet-name>
+        <url-pattern>/wgame/dicedx/deal2.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.dicedx.help_jsp</servlet-name>
+        <url-pattern>/wgame/dicedx/help.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.dicedx.history_jsp</servlet-name>
+        <url-pattern>/wgame/dicedx/history.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.dicedx.index_jsp</servlet-name>
+        <url-pattern>/wgame/dicedx/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.dicedx.start_jsp</servlet-name>
+        <url-pattern>/wgame/dicedx/start.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.football.deal1_jsp</servlet-name>
+        <url-pattern>/wgame/football/deal1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.football.deal2_jsp</servlet-name>
+        <url-pattern>/wgame/football/deal2.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.football.help_jsp</servlet-name>
+        <url-pattern>/wgame/football/help.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.football.history_jsp</servlet-name>
+        <url-pattern>/wgame/football/history.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.football.index_jsp</servlet-name>
+        <url-pattern>/wgame/football/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.football.start_jsp</servlet-name>
+        <url-pattern>/wgame/football/start.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.g21.deal1_jsp</servlet-name>
+        <url-pattern>/wgame/g21/deal1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.g21.deal2_jsp</servlet-name>
+        <url-pattern>/wgame/g21/deal2.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.g21.deal3_jsp</servlet-name>
+        <url-pattern>/wgame/g21/deal3.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.g21.help_jsp</servlet-name>
+        <url-pattern>/wgame/g21/help.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.g21.history_jsp</servlet-name>
+        <url-pattern>/wgame/g21/history.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.g21.index_jsp</servlet-name>
+        <url-pattern>/wgame/g21/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.g21.start_jsp</servlet-name>
+        <url-pattern>/wgame/g21/start.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.jsb.deal1_jsp</servlet-name>
+        <url-pattern>/wgame/jsb/deal1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.jsb.deal2_jsp</servlet-name>
+        <url-pattern>/wgame/jsb/deal2.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.jsb.help_jsp</servlet-name>
+        <url-pattern>/wgame/jsb/help.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.jsb.history_jsp</servlet-name>
+        <url-pattern>/wgame/jsb/history.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.jsb.index_jsp</servlet-name>
+        <url-pattern>/wgame/jsb/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.jsb.start_jsp</servlet-name>
+        <url-pattern>/wgame/jsb/start.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.showhand.deal1_jsp</servlet-name>
+        <url-pattern>/wgame/showhand/deal1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.showhand.end_jsp</servlet-name>
+        <url-pattern>/wgame/showhand/end.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.showhand.help_jsp</servlet-name>
+        <url-pattern>/wgame/showhand/help.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.showhand.history_jsp</servlet-name>
+        <url-pattern>/wgame/showhand/history.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.showhand.index_jsp</servlet-name>
+        <url-pattern>/wgame/showhand/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.showhand.quit_jsp</servlet-name>
+        <url-pattern>/wgame/showhand/quit.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.showhand.round1_jsp</servlet-name>
+        <url-pattern>/wgame/showhand/round1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.showhand.round2_jsp</servlet-name>
+        <url-pattern>/wgame/showhand/round2.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.showhand.round3_jsp</servlet-name>
+        <url-pattern>/wgame/showhand/round3.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.showhand.round4_jsp</servlet-name>
+        <url-pattern>/wgame/showhand/round4.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.showhand.round40_jsp</servlet-name>
+        <url-pattern>/wgame/showhand/round40.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.showhand.start_jsp</servlet-name>
+        <url-pattern>/wgame/showhand/start.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.tiger.deal1_jsp</servlet-name>
+        <url-pattern>/wgame/tiger/deal1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.tiger.deal2_jsp</servlet-name>
+        <url-pattern>/wgame/tiger/deal2.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.tiger.help_jsp</servlet-name>
+        <url-pattern>/wgame/tiger/help.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.tiger.history_jsp</servlet-name>
+        <url-pattern>/wgame/tiger/history.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.tiger.index_jsp</servlet-name>
+        <url-pattern>/wgame/tiger/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgame.tiger.start_jsp</servlet-name>
+        <url-pattern>/wgame/tiger/start.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.girls_jsp</servlet-name>
+        <url-pattern>/wgamefree/girls.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.index_jsp</servlet-name>
+        <url-pattern>/wgamefree/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.randomImage_jsp</servlet-name>
+        <url-pattern>/wgamefree/randomImage.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.dice.deal1_jsp</servlet-name>
+        <url-pattern>/wgamefree/dice/deal1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.dice.deal2_jsp</servlet-name>
+        <url-pattern>/wgamefree/dice/deal2.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.dice.help_jsp</servlet-name>
+        <url-pattern>/wgamefree/dice/help.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.dice.index_jsp</servlet-name>
+        <url-pattern>/wgamefree/dice/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.dice.start_jsp</servlet-name>
+        <url-pattern>/wgamefree/dice/start.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.g21.deal1_jsp</servlet-name>
+        <url-pattern>/wgamefree/g21/deal1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.g21.deal2_jsp</servlet-name>
+        <url-pattern>/wgamefree/g21/deal2.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.g21.deal3_jsp</servlet-name>
+        <url-pattern>/wgamefree/g21/deal3.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.g21.help_jsp</servlet-name>
+        <url-pattern>/wgamefree/g21/help.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.g21.index_jsp</servlet-name>
+        <url-pattern>/wgamefree/g21/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.g21.start_jsp</servlet-name>
+        <url-pattern>/wgamefree/g21/start.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.jsb.deal1_jsp</servlet-name>
+        <url-pattern>/wgamefree/jsb/deal1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.jsb.deal2_jsp</servlet-name>
+        <url-pattern>/wgamefree/jsb/deal2.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.jsb.help_jsp</servlet-name>
+        <url-pattern>/wgamefree/jsb/help.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.jsb.index_jsp</servlet-name>
+        <url-pattern>/wgamefree/jsb/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.jsb.start_jsp</servlet-name>
+        <url-pattern>/wgamefree/jsb/start.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.showhand.deal1_jsp</servlet-name>
+        <url-pattern>/wgamefree/showhand/deal1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.showhand.end_jsp</servlet-name>
+        <url-pattern>/wgamefree/showhand/end.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.showhand.help_jsp</servlet-name>
+        <url-pattern>/wgamefree/showhand/help.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.showhand.index_jsp</servlet-name>
+        <url-pattern>/wgamefree/showhand/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.showhand.quit_jsp</servlet-name>
+        <url-pattern>/wgamefree/showhand/quit.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.showhand.round1_jsp</servlet-name>
+        <url-pattern>/wgamefree/showhand/round1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.showhand.round2_jsp</servlet-name>
+        <url-pattern>/wgamefree/showhand/round2.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.showhand.round3_jsp</servlet-name>
+        <url-pattern>/wgamefree/showhand/round3.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.showhand.round4_jsp</servlet-name>
+        <url-pattern>/wgamefree/showhand/round4.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.showhand.round40_jsp</servlet-name>
+        <url-pattern>/wgamefree/showhand/round40.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.showhand.start_jsp</servlet-name>
+        <url-pattern>/wgamefree/showhand/start.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.tiger.deal1_jsp</servlet-name>
+        <url-pattern>/wgamefree/tiger/deal1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.tiger.deal2_jsp</servlet-name>
+        <url-pattern>/wgamefree/tiger/deal2.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.tiger.help_jsp</servlet-name>
+        <url-pattern>/wgamefree/tiger/help.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.tiger.index_jsp</servlet-name>
+        <url-pattern>/wgamefree/tiger/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamefree.tiger.start_jsp</servlet-name>
+        <url-pattern>/wgamefree/tiger/start.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.help_jsp</servlet-name>
+        <url-pattern>/wgamehall/help.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.index_jsp</servlet-name>
+        <url-pattern>/wgamehall/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.football.acceptInvitation_jsp</servlet-name>
+        <url-pattern>/wgamehall/football/acceptInvitation.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.football.cancelInvitation_jsp</servlet-name>
+        <url-pattern>/wgamehall/football/cancelInvitation.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.football.denyInvitation_jsp</servlet-name>
+        <url-pattern>/wgamehall/football/denyInvitation.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.football.giveUp_jsp</servlet-name>
+        <url-pattern>/wgamehall/football/giveUp.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.football.help_jsp</servlet-name>
+        <url-pattern>/wgamehall/football/help.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.football.history_jsp</servlet-name>
+        <url-pattern>/wgamehall/football/history.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.football.index_jsp</servlet-name>
+        <url-pattern>/wgamehall/football/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.football.invite_jsp</servlet-name>
+        <url-pattern>/wgamehall/football/invite.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.football.kick_jsp</servlet-name>
+        <url-pattern>/wgamehall/football/kick.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.football.playing_jsp</servlet-name>
+        <url-pattern>/wgamehall/football/playing.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.football.save_jsp</servlet-name>
+        <url-pattern>/wgamehall/football/save.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.football.viewInvitation_jsp</servlet-name>
+        <url-pattern>/wgamehall/football/viewInvitation.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.acceptInvitation_jsp</servlet-name>
+        <url-pattern>/wgamehall/gobang/acceptInvitation.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.agreeToPeace_jsp</servlet-name>
+        <url-pattern>/wgamehall/gobang/agreeToPeace.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.cancelInvitation_jsp</servlet-name>
+        <url-pattern>/wgamehall/gobang/cancelInvitation.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.denyInvitation_jsp</servlet-name>
+        <url-pattern>/wgamehall/gobang/denyInvitation.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.denyPeace_jsp</servlet-name>
+        <url-pattern>/wgamehall/gobang/denyPeace.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.getImage_jsp</servlet-name>
+        <url-pattern>/wgamehall/gobang/getImage.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.giveUp_jsp</servlet-name>
+        <url-pattern>/wgamehall/gobang/giveUp.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.help_jsp</servlet-name>
+        <url-pattern>/wgamehall/gobang/help.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.history_jsp</servlet-name>
+        <url-pattern>/wgamehall/gobang/history.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.index_jsp</servlet-name>
+        <url-pattern>/wgamehall/gobang/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.invite_jsp</servlet-name>
+        <url-pattern>/wgamehall/gobang/invite.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.move_jsp</servlet-name>
+        <url-pattern>/wgamehall/gobang/move.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.playing_jsp</servlet-name>
+        <url-pattern>/wgamehall/gobang/playing.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.sueForPeace_jsp</servlet-name>
+        <url-pattern>/wgamehall/gobang/sueForPeace.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.gobang.viewInvitation_jsp</servlet-name>
+        <url-pattern>/wgamehall/gobang/viewInvitation.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.othello.acceptInvitation_jsp</servlet-name>
+        <url-pattern>/wgamehall/othello/acceptInvitation.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.othello.agreeToPeace_jsp</servlet-name>
+        <url-pattern>/wgamehall/othello/agreeToPeace.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.othello.cancelInvitation_jsp</servlet-name>
+        <url-pattern>/wgamehall/othello/cancelInvitation.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.othello.denyInvitation_jsp</servlet-name>
+        <url-pattern>/wgamehall/othello/denyInvitation.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.othello.denyPeace_jsp</servlet-name>
+        <url-pattern>/wgamehall/othello/denyPeace.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.othello.getImage_jsp</servlet-name>
+        <url-pattern>/wgamehall/othello/getImage.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.othello.giveUp_jsp</servlet-name>
+        <url-pattern>/wgamehall/othello/giveUp.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.othello.help_jsp</servlet-name>
+        <url-pattern>/wgamehall/othello/help.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.othello.history_jsp</servlet-name>
+        <url-pattern>/wgamehall/othello/history.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.othello.index_jsp</servlet-name>
+        <url-pattern>/wgamehall/othello/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.othello.invite_jsp</servlet-name>
+        <url-pattern>/wgamehall/othello/invite.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.othello.move_jsp</servlet-name>
+        <url-pattern>/wgamehall/othello/move.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.othello.playing_jsp</servlet-name>
+        <url-pattern>/wgamehall/othello/playing.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.othello.sueForPeace_jsp</servlet-name>
+        <url-pattern>/wgamehall/othello/sueForPeace.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamehall.othello.viewInvitation_jsp</servlet-name>
+        <url-pattern>/wgamehall/othello/viewInvitation.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.help_jsp</servlet-name>
+        <url-pattern>/wgamepk/help.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.index_jsp</servlet-name>
+        <url-pattern>/wgamepk/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk._3gong.bkDeal1_jsp</servlet-name>
+        <url-pattern>/wgamepk/3gong/bkDeal1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk._3gong.bkStart_jsp</servlet-name>
+        <url-pattern>/wgamepk/3gong/bkStart.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk._3gong.cancelBk_jsp</servlet-name>
+        <url-pattern>/wgamepk/3gong/cancelBk.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk._3gong.chlStart_jsp</servlet-name>
+        <url-pattern>/wgamepk/3gong/chlStart.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk._3gong.help_jsp</servlet-name>
+        <url-pattern>/wgamepk/3gong/help.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk._3gong.history_jsp</servlet-name>
+        <url-pattern>/wgamepk/3gong/history.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk._3gong.index_jsp</servlet-name>
+        <url-pattern>/wgamepk/3gong/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk._3gong.pkDeal1_jsp</servlet-name>
+        <url-pattern>/wgamepk/3gong/pkDeal1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk._3gong.pkRightDeal1_jsp</servlet-name>
+        <url-pattern>/wgamepk/3gong/pkRightDeal1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk._3gong.pkRightStart_jsp</servlet-name>
+        <url-pattern>/wgamepk/3gong/pkRightStart.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk._3gong.pkStart_jsp</servlet-name>
+        <url-pattern>/wgamepk/3gong/pkStart.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk._3gong.viewPK_jsp</servlet-name>
+        <url-pattern>/wgamepk/3gong/viewPK.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.dice.bkDeal1_jsp</servlet-name>
+        <url-pattern>/wgamepk/dice/bkDeal1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.dice.bkStart_jsp</servlet-name>
+        <url-pattern>/wgamepk/dice/bkStart.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.dice.cancelBk_jsp</servlet-name>
+        <url-pattern>/wgamepk/dice/cancelBk.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.dice.chlStart_jsp</servlet-name>
+        <url-pattern>/wgamepk/dice/chlStart.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.dice.help_jsp</servlet-name>
+        <url-pattern>/wgamepk/dice/help.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.dice.history_jsp</servlet-name>
+        <url-pattern>/wgamepk/dice/history.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.dice.index_jsp</servlet-name>
+        <url-pattern>/wgamepk/dice/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.dice.pkDeal1_jsp</servlet-name>
+        <url-pattern>/wgamepk/dice/pkDeal1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.dice.pkRightDeal1_jsp</servlet-name>
+        <url-pattern>/wgamepk/dice/pkRightDeal1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.dice.pkRightStart_jsp</servlet-name>
+        <url-pattern>/wgamepk/dice/pkRightStart.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.dice.pkStart_jsp</servlet-name>
+        <url-pattern>/wgamepk/dice/pkStart.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.dice.viewPK_jsp</servlet-name>
+        <url-pattern>/wgamepk/dice/viewPK.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.football.bkDeal1_jsp</servlet-name>
+        <url-pattern>/wgamepk/football/bkDeal1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.football.bkStart_jsp</servlet-name>
+        <url-pattern>/wgamepk/football/bkStart.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.football.cancelBk_jsp</servlet-name>
+        <url-pattern>/wgamepk/football/cancelBk.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.football.chlStart_jsp</servlet-name>
+        <url-pattern>/wgamepk/football/chlStart.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.football.help_jsp</servlet-name>
+        <url-pattern>/wgamepk/football/help.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.football.history_jsp</servlet-name>
+        <url-pattern>/wgamepk/football/history.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.football.index_jsp</servlet-name>
+        <url-pattern>/wgamepk/football/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.football.pkDeal1_jsp</servlet-name>
+        <url-pattern>/wgamepk/football/pkDeal1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.football.pkout_jsp</servlet-name>
+        <url-pattern>/wgamepk/football/pkout.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.football.pkRightDeal1_jsp</servlet-name>
+        <url-pattern>/wgamepk/football/pkRightDeal1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.football.pkRightStart_jsp</servlet-name>
+        <url-pattern>/wgamepk/football/pkRightStart.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.football.pkStart_jsp</servlet-name>
+        <url-pattern>/wgamepk/football/pkStart.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.football.viewPK_jsp</servlet-name>
+        <url-pattern>/wgamepk/football/viewPK.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.jsb.bkDeal1_jsp</servlet-name>
+        <url-pattern>/wgamepk/jsb/bkDeal1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.jsb.bkStart_jsp</servlet-name>
+        <url-pattern>/wgamepk/jsb/bkStart.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.jsb.cancelBk_jsp</servlet-name>
+        <url-pattern>/wgamepk/jsb/cancelBk.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.jsb.chlStart_jsp</servlet-name>
+        <url-pattern>/wgamepk/jsb/chlStart.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.jsb.help_jsp</servlet-name>
+        <url-pattern>/wgamepk/jsb/help.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.jsb.history_jsp</servlet-name>
+        <url-pattern>/wgamepk/jsb/history.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.jsb.index_jsp</servlet-name>
+        <url-pattern>/wgamepk/jsb/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.jsb.pkDeal1_jsp</servlet-name>
+        <url-pattern>/wgamepk/jsb/pkDeal1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.jsb.pkout_jsp</servlet-name>
+        <url-pattern>/wgamepk/jsb/pkout.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.jsb.pkRightDeal1_jsp</servlet-name>
+        <url-pattern>/wgamepk/jsb/pkRightDeal1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.jsb.pkRightStart_jsp</servlet-name>
+        <url-pattern>/wgamepk/jsb/pkRightStart.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.jsb.pkStart_jsp</servlet-name>
+        <url-pattern>/wgamepk/jsb/pkStart.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.jsb.viewPK_jsp</servlet-name>
+        <url-pattern>/wgamepk/jsb/viewPK.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.money.money1_jsp</servlet-name>
+        <url-pattern>/wgamepk/money/money1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.money.money11_jsp</servlet-name>
+        <url-pattern>/wgamepk/money/money11.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.money.money2_jsp</servlet-name>
+        <url-pattern>/wgamepk/money/money2.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.money.money21_jsp</servlet-name>
+        <url-pattern>/wgamepk/money/money21.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.wgamepk.money.moneyIndex_jsp</servlet-name>
+        <url-pattern>/wgamepk/money/moneyIndex.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.worldcup.answer_jsp</servlet-name>
+        <url-pattern>/worldcup/answer.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.worldcup.index_jsp</servlet-name>
+        <url-pattern>/worldcup/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.worldcup.question_jsp</servlet-name>
+        <url-pattern>/worldcup/question.jsp</url-pattern>
+    </servlet-mapping>
+
+<!--
+All session-config, mime-mapping, welcome-file-list, error-page, taglib,
+resource-ref, security-constraint, login-config, security-role,
+env-entry, and ejb-ref elements should follow this fragment.
+-->

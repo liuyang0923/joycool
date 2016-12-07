@@ -1,0 +1,4 @@
+id:id:int
+name:name:String
+introduction:introduction:String
+typeId:zippo_type:int

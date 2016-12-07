@@ -1,0 +1,1 @@
+<%@ page contentType="text/vnd.wap.wml;charset=utf-8"%><%@ page import="net.joycool.wap.framework.BaseAction"%><br/><%=BaseAction.getBottomShort(request, response)%>

@@ -1,0 +1,6 @@
+id:id:int
+questionId:question_id:int
+answer:answer:String
+isCorrect:is_correct:int
+userId:user_id:int
+createDatetime:create_datetime:String

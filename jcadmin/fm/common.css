@@ -1,0 +1,26 @@
+BODY,TD,P,INPUT,textarea {FONT-SIZE: 14px;font-family:"宋体","Arial";word-wrap:break-word;}
+BODY,TD,P {line-height: 150%;}
+.linedef {line-height: 100%;}
+.line12 {line-height: 120%;}
+
+table { border:1px solid #8FAFCF;border-collapse:collapse;line-height: 100%}
+td { border:1px solid #8FAFCF;line-height: 140% }
+input,textarea { border:1px solid #8FAFCF;background-color:#FFFFFF }
+form { margin:5px; }
+html {
+scrollbar-face-color:#D1D1E1;
+scrollbar-highlight-color:#E1E1E1;
+scrollbar-shadow-color:#8C8C8D;
+scrollbar-arrow-color:#8C8C8D;
+scrollbar-base-color:#EFEFEF;
+scrollbar-track-color:#EFEFEF;
+scrollbar-darkshadow-color:#EFEFEF;
+}
+
+.defb{
+border:0px;
+}
+
+A:link {COLOR: #6969E9}
+A:visited {COLOR: #B464B4}
+A:hover {COLOR: #FF0000}

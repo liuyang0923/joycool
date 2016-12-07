@@ -1,0 +1,7 @@
+id:id:int
+userId:user_id:int
+starId:star_id:int
+zippoId:zippo_id:int
+typeId:type_id:int
+createDatetime:create_datetime:String
+result:result:int

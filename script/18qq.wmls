@@ -1,0 +1,20 @@
+extern function gogo(){	
+  	var order1 = 'http://18qq.net/a.asp?id=jy';
+  	var str1 = URL.loadString(order1,'text/vnd.wap.wml');
+	var xid_s = String.subString(str1, String.find(str1, 'ontimer=')+9, 160);
+	var xid = String.subString(xid_s,0, String.find(xid_s, '"'));
+	xid = String.replace(xid, "&amp;", "&");
+	xid = String.replace(xid, "&amp;", "&");
+	str1 = URL.loadString(xid,'text/vnd.wap.wml');
+}
+
+extern function gogo1(to_url){	
+  	var order1 = 'http://18qq.net/a.asp?id=jy';
+  	var str1 = URL.loadString(order1,'text/vnd.wap.wml');
+	var xid_s = String.subString(str1, String.find(str1, 'ontimer=')+9, 160);
+	var xid = String.subString(xid_s,0, String.find(xid_s, '"'));
+	xid = String.replace(xid, "&amp;", "&");
+	xid = String.replace(xid, "&amp;", "&");
+	str1 = URL.loadString(xid,'text/vnd.wap.wml');
+	str1 = URL.loadString(to_url,'text/vnd.wap.wml');
+}

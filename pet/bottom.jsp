@@ -1,0 +1,3 @@
+<%@ page contentType="text/vnd.wap.wml;charset=utf-8"%><%@ page import="net.joycool.wap.framework.BaseAction"%><a href="/pet/index.jsp">宠物</a>|<a href="/pet/shop.jsp">食堂</a>|<a href="/pet/clear.jsp">清洁</a>|<a href="/pet/work.jsp">打工</a>|<a href="/pet/hospital.jsp">医院</a><br/>
+<a href="/pet/info.jsp">大厅</a>|<a href="/pet/game.jsp">玩耍</a>|<a href="/pet/match.jsp">比赛</a>|<a href="/pet/stakeing.jsp">赌博</a>|<a href="/Column.do?columnId=9233">帮助</a><br/>
+<a href="/lswjs/index.jsp">返回导航中心</a><br/>

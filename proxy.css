@@ -1,0 +1,10 @@
+BODY {
+	line-height:1.4em;
+	background-color: #2b3840;COLOR: #99FF00; TEXT-ALIGN: left;margin:0px;font-size:11pt;
+	font-family: Tahoma;word-wrap:break-word;
+}
+A {COLOR:#AAEEFF; text-decoration:none;word-wrap:break-word;}
+A:hover {COLOR:#FFFFFF;}
+img{border:0px;}
+.div1{width:240px;border:0px;}
+.div2{width:240px;border:0px;padding:4px;}

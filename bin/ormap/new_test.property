@@ -1,0 +1,5 @@
+id:id:int
+title:title:String
+introduction:introduction:String
+createDatetime:create_datetime:String
+isClosed:is_closed:int

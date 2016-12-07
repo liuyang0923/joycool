@@ -1,0 +1,4 @@
+id:id:int
+questionId:question_id:int
+content:content:String
+isCorrect:is_correct:int

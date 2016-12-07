@@ -1,0 +1,5 @@
+id:id:int
+linkId:link_id:int
+date:log_date:String
+hitsCount:hits_count:int
+mobileCount:mobile_count:int

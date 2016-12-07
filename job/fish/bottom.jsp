@@ -1,0 +1,1 @@
+<%@ page contentType="text/vnd.wap.wml;charset=utf-8"%><a href="/job/fish/index.jsp">返回渔场首页</a><br/><a href="/lswjs/gameIndex.jsp">返回休闲娱乐城</a><br/>

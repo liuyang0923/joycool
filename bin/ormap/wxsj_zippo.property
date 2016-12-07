@@ -1,0 +1,5 @@
+id:id:int
+name:name:String
+summary:summary:String
+introduction:introduction:String
+typeId:type_id:int

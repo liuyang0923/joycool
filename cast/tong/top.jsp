@@ -1,0 +1,1 @@
+<%@ page contentType="text/vnd.wap.wml;charset=utf-8" %><%@include file="../pageinc.jsp"%><%=BaseAction.getTop(request, response)%><a href="../base.jsp">资源</a>|<a href="../ad.jsp">建筑</a>|<a href="../around.jsp">地图</a>|<a href="../amsg.jsp">信息</a><br/>

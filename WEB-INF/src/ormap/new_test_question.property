@@ -1,0 +1,6 @@
+id:id:int
+testId:test_id:int
+pageCode:page_code:int
+code:code:int
+question:question:String
+multiple:multiple:int

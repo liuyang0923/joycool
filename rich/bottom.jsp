@@ -1,0 +1,1 @@
+<%@ page contentType="text/vnd.wap.wml;charset=utf-8"%><%@ page import="net.joycool.wap.framework.BaseAction"%><br/><a href="index.jsp">返回大富翁首页</a><br/><%=BaseAction.getBottomShort(request, response)%>

@@ -1,0 +1,14 @@
+id:id:int
+title:title:String
+type:type:int
+correctAnswer:correct_answer:String
+tipUrl:tip_url:String
+maxCount:max_count:int
+ended:ended:int
+bonus:bonus:int
+createDatetime:create_datetime:String
+endDatetime:end_datetime:String
+currentCount:current_count:int
+correctCount:correct_count:int
+bonusType:bonus_type:int
+content:content:String

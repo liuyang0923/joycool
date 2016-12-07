@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+<controller>
+	<set-property  property="locale" value="false"/>
+</controller>
+	<form-beans>
+		<form-bean name="SearchLinkForm"
+			type="org.apache.struts.action.DynaActionForm">
+			<form-property name="name" type="java.lang.String" />
+			<form-property name="url" type="java.lang.String" />
+		</form-bean>
+		<form-bean name="postAttachForm"
+			type="org.apache.struts.action.DynaActionForm">
+			<form-property name="to" type="java.lang.String" />
+			<form-property name="content" type="java.lang.String" />
+			<form-property name="file"
+				type="org.apache.struts.upload.FormFile" />
+		</form-bean>
+		<!--zhul_2006-08-16 新增猎物页面，关于猎物属性的动态Bean start -->
+		<form-bean name="quarryForm"
+		           type="org.apache.struts.action.DynaActionForm">
+			<form-property name="startDay"
+			               type="java.lang.String"/>
+			<form-property name="startHour"
+			               type="java.lang.String"/>
+			<form-property name="endDay"
+			               type="java.lang.String"/>
+			<form-property name="endHour"
+			               type="java.lang.String"/>
+			<form-property name="name"
+			               type="java.lang.String"/>
+			<form-property name="price"
+			               type="java.lang.String"/>
+			<form-property name="harmPrice"
+			               type="java.lang.String"/>
+			<form-property name="hitPoint"
+			               type="java.lang.String"/>
+			<form-property name="image"
+			               type="org.apache.struts.upload.FormFile"/>
+			<form-property name="arrow"
+			               type="java.lang.String"/>
+			<form-property name="handGun"
+			               type="java.lang.String"/>
+			<form-property name="huntGun"
+			               type="java.lang.String"/>
+			<form-property name="ak47"
+			               type="java.lang.String"/>
+			<form-property name="awp"
+			               type="java.lang.String"/>
+			<form-property name="notice"
+			               type="java.lang.String"/>
+		</form-bean>
+		<!--zhul_2006-08-16 新增猎物页面，关于猎物属性的动态Bean end -->
+		<form-bean name="happyCardForm"
+		           type="org.apache.struts.action.DynaActionForm">
+			<form-property name="title"
+			               type="java.lang.String"/>
+			<form-property name="content"
+			               type="java.lang.String"/>
+			<form-property name="image"
+			               type="org.apache.struts.upload.FormFile"/>
+		</form-bean>
+		<form-bean name="cartoonForm"
+		           type="org.apache.struts.action.DynaActionForm">
+			<form-property name="image"
+			               type="org.apache.struts.upload.FormFile"/>
+		</form-bean>
+		<form-bean name="attForm"
+			type="org.apache.struts.action.DynaActionForm">
+			<form-property name="title" type="java.lang.String" />
+			<!--zhul 2006-06-30 start 在发布帖图交友广告时需要加的新属性 -->
+			<form-property name="sex" type="java.lang.String" />
+			<form-property name="age" type="java.lang.String" />
+			<form-property name="area" type="java.lang.String" />
+			<!--zhul 2006-06-30 end 在发布帖图交友广告时需要加的新属性 -->
+			<form-property name="content" type="java.lang.String" />
+			<form-property name="attachment"
+				type="org.apache.struts.upload.FormFile" />
+		</form-bean>
+		<form-bean name="insertAttachForm"
+			type="org.apache.struts.action.DynaActionForm">
+			<form-property name="to" type="java.lang.String" />
+			<form-property name="content" type="java.lang.String" />
+			<form-property name="file"
+				type="org.apache.struts.upload.FormFile" />
+		</form-bean>
+		<!-- macq_2007-6-11_论坛图片上传_start -->
+		<form-bean name="forumContentAttachForm"
+			type="org.apache.struts.action.DynaActionForm">
+			<form-property name="forumId" type="java.lang.String" />
+			<form-property name="title" type="java.lang.String" />
+			<form-property name="content" type="java.lang.String" />
+			<form-property name="file"
+				type="org.apache.struts.upload.FormFile" />
+		</form-bean>
+		<form-bean name="forumReplyAttachForm"
+			type="org.apache.struts.action.DynaActionForm">
+			<form-property name="contentId" type="java.lang.String" />
+			<form-property name="content" type="java.lang.String" />
+			<form-property name="file"
+				type="org.apache.struts.upload.FormFile" />
+		</form-bean>
+		<!-- macq_2007-6-11_论坛图片上传_end -->
+		<!-- add by zhangyi for add hall 2006/06/26 start -->
+		<form-bean name="chatHallForm"
+			type="org.apache.struts.action.DynaActionForm">
+			<form-property name="name" type="java.lang.String" />
+			<form-property name="maxOnlineCount"
+				type="java.lang.String" />
+			<form-property name="payWay" type="java.lang.String" />
+			<form-property name="payDays" type="java.lang.String" />
+			<form-property name="thumbnail" type="java.lang.String" />
+			<form-property name="grantMode" type="java.lang.String" />
+		</form-bean>
+		<!-- add by zhangyi for add hall 2006/06/26 end -->
+
+		<!-- maning_2010-1-26_图库图片上传_start -->
+		<form-bean name="imgLibForm"
+			type="org.apache.struts.action.DynaActionForm">
+			<form-property name="title" type="java.lang.String" />
+			<form-property name="file"
+				type="org.apache.struts.upload.FormFile" />
+		</form-bean>
+		<!-- maning_2010-1-26_图库图片上传_end -->
+	</form-beans>
+	<global-exceptions>
+		<exception type="java.lang.Exception" key=""
+			handler="net.joycool.wap.framework.MyExceptionHandler" />
+	</global-exceptions>
+	<global-forwards>
+		<forward name="systemFailure" path="/failure.jsp"
+			redirect="false" contextRelative="true" />
+	</global-forwards>
+	<action-mappings>
+		<action path="/Index"
+			type="net.joycool.wap.action.IndexAction">
+			<forward name="success" path="/index.jsp" redirect="false" />
+		</action>
+		<action path="/Column"
+			type="net.joycool.wap.action.ColumnAction">
+			<forward name="success" path="/column.jsp" redirect="false" />
+		</action>
+		<action path="/user/Login"
+			type="net.joycool.wap.action.user.LoginAction">
+			<forward name="success" path="/user/login.jsp"
+				redirect="false" />
+		</action>
+		<action path="/user/Register"
+			type="net.joycool.wap.action.user.RegisterAction">
+			<forward name="success" path="/user/register.jsp"
+				redirect="false" />
+		</action>
+		<action path="/user/UserInfo"
+			type="net.joycool.wap.action.user.UserInfoAction">
+			<forward name="success" path="/user/userInfo.jsp"
+				redirect="false" />
+		</action>
+		<action path="/user/ViewUserInfo"
+			type="net.joycool.wap.action.user.ViewUserInfoAction">
+			<forward name="success" path="/user/viewUserInfo.jsp"
+				redirect="false" />
+		</action>
+		<action path="/user/OperFriend"
+			type="net.joycool.wap.action.user.OperFriendAction">
+			<forward name="success" path="/user/operFriend.jsp"
+				redirect="false" />
+		</action>
+		<action path="/user/SearchUser"
+			type="net.joycool.wap.action.user.SearchUserAction">
+			<forward name="success" path="/user/searchUserResult.jsp"
+				redirect="false" />
+		</action>
+		<action path="/user/ViewFriends"
+			type="net.joycool.wap.action.user.ViewFriendsAction">
+			<forward name="success" path="/user/viewFriends.jsp"
+				redirect="false" />
+		</action>
+		<!--zhul add new action 2006/06/09 start 将用户好友进行细化需要增加的action！-->
+		<action path="/user/FriendsList"
+			type="net.joycool.wap.action.user.FriendsListAction">
+			<forward name="success" path="/user/friendsList.jsp"
+				redirect="false" />
+		</action>
+		<!--zhul add new action 2006/06/09 end 将用户好友进行细化需要增加的action！-->
+		<action path="/user/ViewMessages"
+			type="net.joycool.wap.action.user.ViewMessagesAction">
+			<forward name="success" path="/user/viewMessages.jsp"
+				redirect="false" />
+		</action>
+		<action path="/user/ViewSendMessages"
+			type="net.joycool.wap.action.user.ViewSendMessagesAction">
+			<forward name="success" path="/user/viewSendMessages.jsp"
+				redirect="false" />
+		</action>
+		<action path="/user/SendMessage"
+			type="net.joycool.wap.action.user.SendMessageAction">
+			<forward name="success" path="/user/sendMessage.jsp"
+				redirect="false" />
+		</action>
+		<action path="/user/OperBadGuy"
+			type="net.joycool.wap.action.user.OperBadGuyAction">
+			<forward name="success" path="/user/operBadGuy.jsp"
+				redirect="false" />
+		</action>
+		<action path="/user/ViewBadGuys"
+			type="net.joycool.wap.action.user.ViewBadGuysAction">
+			<forward name="success" path="/user/viewBadGuys.jsp"
+				redirect="false" />
+		</action>
+		<action path="/user/ChooseFriend"
+			type="net.joycool.wap.action.user.ChooseFriendAction">
+			<forward name="success" path="/user/chooseFriend.jsp"
+				redirect="false" />
+		</action>
+		<action path="/news/NewsInfo"
+			type="net.joycool.wap.action.news.NewsInfoAction">
+			<forward name="success" path="/news/newsInfo.jsp"
+				redirect="false" />
+		</action>
+		<action path="/news/NewsCataList"
+			type="net.joycool.wap.action.news.NewsCataListAction">
+			<forward name="success" path="/news/newsCataList.jsp"
+				redirect="false" />
+			<forward name="newsList" path="/news/newsList.jsp"
+				redirect="false" />
+		</action>
+		<!--Liq 2007.3.25为增加新闻组功能新增的！                                     -->
+		<action path="/news/NewsGroupInfo"
+			type="net.joycool.wap.action.news.NewsGroupInfoAction">
+			<forward name="success" path="/news/newsGroupInfo.jsp"
+				redirect="false" />
+		</action>
+		<action path="/news/GroupCataList"
+			type="net.joycool.wap.action.news.GroupCataListAction">
+			<forward name="newsInfo" path="/news/newsGroupInfoList.jsp"
+				redirect="false" />
+			<forward name="newsList" path="/news/newsGroupList.jsp"
+				redirect="false" />
+		</action>
+		<!--Liq 2007.3.25为增加新闻组功能新增的！                                     -->
+		<action path="/image/ImageInfo"
+			type="net.joycool.wap.action.image.ImageInfoAction">
+			<forward name="success" path="/image/imageInfo.jsp"
+				redirect="false" />
+		</action>
+		<action path="/image/ImageCataList"
+			type="net.joycool.wap.action.image.ImageCataListAction">
+			<forward name="success" path="/image/imageCataList.jsp"
+				redirect="false" />
+			<forward name="imageList" path="/image/imageList.jsp"
+				redirect="false" />
+		</action>
+		<action path="/image/ImageDownLoad"
+			type="net.joycool.wap.action.image.ImageDownLoadAction">
+			<forward name="success" path="/image/imageDownLoad.jsp"
+				redirect="false" />
+		</action>
+		<action path="/ebook/EBookCataList"
+			type="net.joycool.wap.action.ebook.EBookCataListAction">
+			<forward name="success" path="/ebook/ebookCataList.jsp"
+				redirect="false" />
+			<forward name="ebookList" path="/ebook/ebookList.jsp"
+				redirect="false" />
+		</action>
+		<action path="/ebook/EBookInfo"
+			type="net.joycool.wap.action.ebook.EBookInfoAction">
+			<forward name="success" path="/ebook/ebookInfo.jsp"
+				redirect="false" />
+		</action>
+		<action path="/ebook/EBookDownloadList"
+			type="net.joycool.wap.action.ebook.EBookDownloadListAction">
+			<forward name="success" path="/ebook/ebookDownloadList.jsp"
+				redirect="false" />
+				<forward name="prompt" path="/ebook/EBookDownloadResult.jsp"
+				redirect="false" />
+		</action>
+		<action path="/ebook/EBookReadList"
+			type="net.joycool.wap.action.ebook.EBookReadListAction">
+			<forward name="success" path="/ebook/ebookReadList.jsp"
+				redirect="false" />
+		</action>
+		<action path="/ebook/EBookRead"
+			type="net.joycool.wap.action.ebook.EBookReadAction">
+			<forward name="success" path="/ebook/ebookRead.jsp"
+				redirect="false" />
+		</action>
+		<action path="/image/SearchImage"
+			type="net.joycool.wap.action.image.SearchImageAction">
+			<forward name="success" path="/image/result.jsp"
+				redirect="false" />
+		</action>
+		<action path="/ebook/SearchEBook"
+			type="net.joycool.wap.action.ebook.SearchEBookAction">
+			<forward name="success" path="/ebook/result.jsp"
+				redirect="false" />
+		</action>
+		<action path="/image/SearchInfo"
+			type="net.joycool.wap.action.image.SearchInfoAction">
+			<forward name="success" path="/image/searchInfo.jsp"
+				redirect="false" />
+		</action>
+		<action path="/ebook/SearchInfo"
+			type="net.joycool.wap.action.ebook.SearchInfoAction">
+			<forward name="success" path="/ebook/searchInfo.jsp"
+				redirect="false" />
+		</action>
+		<action path="/game/GameCataList"
+			type="net.joycool.wap.action.game.GameCataListAction">
+			<forward name="success" path="/game/gameCataList.jsp"
+				redirect="false" />
+			<forward name="gameList" path="/game/gameList.jsp"
+				redirect="false" />
+			<forward name="gameList2" path="/game/gameList2.jsp"
+				redirect="false" />
+				<forward name="gameMobileList" path="/game/gameMobileList.jsp"
+				redirect="false" />
+		</action>
+		<action path="/game/GameInfo"
+			type="net.joycool.wap.action.game.GameInfoAction">
+			<forward name="success" path="/game/gameInfo.jsp"
+				redirect="false" />
+		</action>
+		<action path="/game/SearchGame"
+			type="net.joycool.wap.action.game.SearchGameAction">
+			<forward name="success" path="/game/result.jsp"
+				redirect="false" />
+		</action>
+		<action path="/DiyIndex"
+			type="net.joycool.wap.action.DiyIndexAction">
+			<forward name="hasNotLogin" path="/wapIndex.jsp"
+				redirect="false" />
+			<forward name="success" path="/diyIndex.jsp"
+				redirect="false" />
+		</action>
+		<action path="/guestbook/Guestbook"
+			type="net.joycool.wap.action.guestbook.GuestbookAction">
+			<forward name="success" path="/guestbook/guestbook.jsp"
+				redirect="false" />
+		</action>
+		<action path="/pgame/PGameList"
+			type="net.joycool.wap.action.pgame.PGameListAction">
+			<forward name="success" path="/pgame/pgameList.jsp"
+				redirect="false" />
+		</action>
+		<action path="/pgame/PGameInfo"
+			type="net.joycool.wap.action.pgame.PGameInfoAction">
+			<forward name="success" path="/pgame/pgameInfo.jsp"
+				redirect="false" />
+		</action>
+		<action path="/broadcast/Broadcast"
+			type="net.joycool.wap.action.broadcast.BroadcastAction">
+			<forward name="success" path="/broadcast/broadcast.jsp"
+				redirect="false" />
+		</action>
+		<action path="/broadcast/AllBroadcast"
+			type="net.joycool.wap.action.broadcast.AllBroadcastAction">
+			<forward name="success" path="/broadcast/allbroadcast.jsp"
+				redirect="false" />
+		</action>
+		<action path="/AddWapAlly"
+			type="net.joycool.wap.action.AddWapAllyAction">
+			<forward name="success" path="/viewWapAlly.jsp"
+				redirect="false" />
+			<forward name="failure" path="/wapAlly.jsp"
+				redirect="false" />
+		</action>
+		<action path="/broadcast/Admin"
+			type="net.joycool.wap.action.broadcast.AdminAction">
+			<forward name="success" path="/broadcast/admin.jsp"
+				redirect="false" />
+			<forward name="update" path="/broadcast/update.jsp"
+				redirect="false" />
+		</action>
+		<action path="/broadcast/UpdateBStatus"
+			type="net.joycool.wap.action.broadcast.UpdateBStatusAction">
+			<forward name="success" path="/broadcast/Admin.do"
+				redirect="false" />
+		</action>
+		<action path="/broadcast/AddBroadcast"
+			type="net.joycool.wap.action.broadcast.AddBroadcastAction">
+			<forward name="success" path="/broadcast/Admin.do"
+				redirect="false" />
+		</action>
+		<action path="/broadcast/UpdateBroadcast"
+			type="net.joycool.wap.action.broadcast.UpdateBroadcastAction">
+			<forward name="success" path="/broadcast/Admin.do"
+				redirect="false" />
+		</action>
+		<action path="/cart/AddCart"
+			type="net.joycool.wap.action.cart.AddCartAction">
+			<forward name="success" path="/cart/addCart.jsp"
+				redirect="false" />
+		</action>
+		<action path="/ring/RingCataList"
+			type="net.joycool.wap.action.ring.RingCataListAction">
+			<forward name="success" path="/ring/ringCataList.jsp"
+				redirect="false" />
+			<forward name="ringList" path="/ring/ringList.jsp"
+				redirect="false" />
+			<forward name="fileTypeRingList" path="/ring/ringList2.jsp"
+				redirect="false" />
+		</action>
+		<action path="/ring/RingInfo"
+			type="net.joycool.wap.action.ring.RingInfoAction">
+			<forward name="success" path="/ring/ringInfo.jsp"
+				redirect="false" />
+		</action>
+		<action path="/ring/SearchRing"
+			type="net.joycool.wap.action.ring.SearchRingAction">
+			<forward name="success" path="/ring/result.jsp"
+				redirect="false" />
+		</action>
+		<action path="/ring/DownloadRing"
+			type="net.joycool.wap.action.ring.DownloadRingAction">
+			<forward name="success" path="/ring/fileList.jsp"
+				redirect="false" />
+		</action>	
+		<action path="/video/VideoCataList"
+		        type="net.joycool.wap.action.video.VideoCataListAction">
+			<forward name="success"
+			         path="/video/videoCataList.jsp"
+			         redirect="false"/>
+			<forward name="videoList"
+			         path="/video/videoList.jsp"
+			         redirect="false"/>
+		</action>
+		<action path="/video/VideoInfo"
+		        type="net.joycool.wap.action.video.VideoInfoAction">
+			<forward name="success"
+			         path="/video/videoInfo.jsp"
+			         redirect="false"/>
+		</action>
+		<action path="/video/SearchVideo"
+		        type="net.joycool.wap.action.video.SearchVideoAction">
+			<forward name="success"
+			         path="/video/result.jsp"
+			         redirect="false"/>
+		</action>
+		<action path="/video/DownloadVideo"
+		        type="net.joycool.wap.action.video.DownloadVideoAction">
+			<forward name="success"
+			         path="/video/fileList.jsp"
+			         redirect="false"/>
+		</action>
+		<action path="/friendlink/FriendLink"
+			type="net.joycool.wap.action.friendlink.FriendLinkAction">
+			<forward name="success" path="/friendlink/addFriendLink.jsp"
+				redirect="false" />
+		</action>
+		<action path="/friendlink/AddFriendLink"
+			type="net.joycool.wap.action.friendlink.AddFriendLinkAction">
+			<forward name="success"
+				path="/friendlink/viewFriendLink.jsp" redirect="false" />
+			<forward name="check" path="/friendlink/addFriendLink.jsp"
+				redirect="false" />
+		</action>
+		<action path="/friendlink/searchlink" attribute="SearchLinkForm"
+			scope="request" name="SearchLinkForm"
+			type="net.joycool.wap.action.friendlink.SearchFriendLinkAction">
+			<forward name="success"
+				path="/friendlink/searchFriendLink.jsp" redirect="false" />
+		</action>
+		<action path="/friendlink/delete"
+			type="net.joycool.wap.action.friendlink.DeleteFriendLinkAction">
+			<forward name="ok" path="/friendlink/linkManage.jsp"
+				redirect="false" />
+		</action>
+		<action path="/friendlink/update"
+			type="net.joycool.wap.action.friendlink.UpdateFriendLinkAction">
+			<forward name="ok" path="/friendlink/linkManage.jsp"
+				redirect="false" />
+		</action>
+		<action path="/chat/PostAttach"
+			type="net.joycool.wap.action.chat.PostAttachAction"
+			name="postAttachForm" validate="false">
+			<forward name="success" path="/chat/postAttach.jsp"
+				redirect="false" />
+		</action>
+		<action path="/forum/ForumIndex"
+			type="net.joycool.wap.action.forum.ForumIndexAction">
+			<forward name="success" path="/forum/forumIndex.jsp"
+				redirect="false" />
+		</action>
+		<action path="/forum/Post"
+			type="net.joycool.wap.action.forum.PostAction">
+			<forward name="success" path="/forum/post.jsp"
+				redirect="false" />
+		</action>
+		<action path="/forum/PostAttach" name="attForm"
+			type="net.joycool.wap.action.forum.PostAttachAction">
+			<forward name="success" path="/forum/postAttach.jsp"
+				redirect="false" />
+		</action>
+
+		<!-- add by zhangyi for tietu 2006-06-22 start -->
+		<action path="/tietu/Post"
+			type="net.joycool.wap.action.tietu.PostAction">
+			<forward name="success" path="/tietu/post.jsp"
+				redirect="false" />
+		</action>
+		<action path="/tietu/PostAttach" name="attForm"
+			type="net.joycool.wap.action.tietu.PostAttachAction">
+			<forward name="success" path="/tietu/postAttach.jsp"
+				redirect="false" />
+		</action>
+		<!-- add by zhangyi for tietu 2006-06-22 end -->
+
+		<action path="/forum/ForumMessage"
+			type="net.joycool.wap.action.forum.ForumMessageAction">
+			<forward name="success" path="/forum/forumMessage.jsp"
+				redirect="false" />
+		</action>
+		<action path="/chat/InsertAttach"
+			type="net.joycool.wap.action.chat.InsertAttachAction"
+			name="insertAttachForm" validate="false">
+			<forward name="success" path="/chat/postAttach.jsp"
+				redirect="false" />
+		</action>
+		<!-- macq_2007-6-11_论坛图片上传_start -->
+		<action path="/jcforum/ForumContentAttach"
+			type="net.joycool.wap.action.jcforum.ForumContentAttachAction"
+			name="forumContentAttachForm" validate="false">
+			<forward name="success" path="/jcforum/contentAttach.jsp"
+				redirect="false" />
+		</action>
+		<action path="/jcforum/ForumReplyAttach"
+			type="net.joycool.wap.action.jcforum.ForumReplyAttachAction"
+			name="forumReplyAttachForm" validate="false">
+			<forward name="success" path="/jcforum/replyAttach.jsp"
+				redirect="false" />
+		</action>
+		<!-- macq_2007-6-11_论坛图片上传_end -->
+		<!-- add by zhangyi for add/edit chat hall 2006-06-26 start -->
+		<action path="/chat/AddHall"
+			type="net.joycool.wap.action.chat.AddHallAction" name="chatHallForm"
+			validate="false">
+			<forward name="success" path="/chat/addHall.jsp"
+				redirect="false" />
+			<forward name="addHallFailure1"
+				path="/chat/AddHall.do?step=1" redirect="false" />
+			<forward name="addHallFailure2"
+				path="/chat/AddHall.do?step=2" redirect="false" />
+			<forward name="addHallFailure4"
+				path="/chat/AddHall.do?step=4" redirect="false" />
+			<forward name="addHallFailure5"
+				path="/chat/addHall.jsp?step=5" redirect="false" />
+			<forward name="systemFailure" path="/failure.jsp"
+				redirect="false" />
+		</action>
+
+		<action path="/chat/EditHall"
+			type="net.joycool.wap.action.chat.EditHallAction" name="chatHallForm"
+			validate="false">
+			<forward name="enterEdit" path="/chat/editHall.jsp"
+				redirect="false" />
+			<forward name="systemFailure" path="/failure.jsp"
+				redirect="false" />
+		</action>
+		<!-- add by zhangyi for add/edit chat hall 2006-06-26 end -->
+
+		<!--zhul add 2006/06/21  start 增加新的action　处理新增交友广告模块 -->
+	<!-- add by zhangyi for add/edit chat hall 2006-06-26 end -->
+		<!--zhul_2006-08-16 add addQuarryAction  -->
+		<action path="/job/AddQuarry"
+				name="quarryForm"
+				scope="request"
+		        type="net.joycool.wap.action.job.AddQuarryAction">
+			<forward name="success"
+			         path="/jcadmin/hunt/addQuarry.jsp"
+			         redirect="false"/>		         
+		</action>
+		<action path="/job/AddHuntTask"
+				name="quarryForm"
+				scope="request"
+		        type="net.joycool.wap.action.job.AddHuntTask">
+			<forward name="success"
+			         path="/jcadmin/hunt/addHuntTask.jsp"
+			         redirect="false"/>		         
+		</action>
+		<!-- fanys 2006-09-14 添加贺卡 start-->
+		<action path="/job/AddHappyCard"
+				name="happyCardForm"
+				scope="request"
+		        type="net.joycool.wap.action.job.AddHappyCardAction">
+			<forward name="success"
+			         path="/jcadmin/job/happycard/type.jsp"
+			         redirect="false"/>		         
+		</action>
+		<!-- fanys 2006-09-14 添加贺卡 end -->
+		<!--zhul_2006-08-16 add addQuarryAction  -->		
+<!--zhul add 2006/06/21  start 增加新的action　处理新增交友广告模块 -->
+		<action path="/friendadver/PostAdver"
+			type="net.joycool.wap.action.friendadver.PostAdverAction">
+			<forward name="success" path="/friendadver/viewUserInfo.jsp"
+				redirect="false" />
+			<forward name="BACK" path="/friendadver/postAdver.jsp"
+				redirect="false" />
+		</action>
+		<action path="/friendadver/PostWord"
+			type="net.joycool.wap.action.friendadver.PostWordAction">
+			<forward name="success" path="/friendadver/postWord.jsp"
+				redirect="false" />
+		</action>
+		<action path="/friendadver/PostAttach" name="attForm"
+			scope="request"
+			type="net.joycool.wap.action.friendadver.PostAttachAction">
+			<forward name="success"
+				path="/friendadver/postAdverAttach.jsp" redirect="false" />
+		</action>
+		<action path="/friendadver/PostMap" name="attForm"
+			scope="request"
+			type="net.joycool.wap.action.friendadver.PostMapAction">
+			<forward name="success" path="/friendadver/postMap.jsp"
+				redirect="false" />
+		</action>
+		<action path="/home/UploadPhoto" name="attForm"
+			scope="request"
+			type="net.joycool.wap.action.home.UploadPhotoAction">
+			<forward name="success" path="/home/addPhoto.jsp"
+				redirect="false" />
+		</action>
+		
+		<action path="/friend/UploadPhoto" name="attForm"
+			scope="request"
+			type="net.joycool.wap.action.friend.UploadPhotoAction">
+			<forward name="success" path="/friend/addPhoto.jsp"
+				redirect="false" />
+		</action>
+		
+		<action path="/friend/EditPhoto" name="attForm"
+			scope="request"
+			type="net.joycool.wap.action.friend.EditPhotoAction">
+			<forward name="success" path="/friend/editPhoto.jsp"
+				redirect="false" />
+		</action>
+
+		<!--zhul add 2006/06/21  end 增加新的action　处理新增交友广告模块 -->
+		<!--liuyi 2006/09/01  start 用户注销 -->
+		<action path="/user/Logout"
+			type="net.joycool.wap.action.user.LogoutAction">
+			<forward name="success" path="/wapIndex.jsp"
+				redirect="false" />
+		</action>
+		<!--liuyi 2006/09/01  end 用户注销 -->
+		<!--liuyi 2006/10/27  start 定婚期-->
+		<action path="/friend/FriendMarriage"
+			type="net.joycool.wap.action.friend.FriendMarriageAction">
+			<forward name="success" path="/friend/engage.jsp"
+				redirect="false" />
+		</action>
+		<!--liuyi 2006/10/27  end 定婚期 -->
+				<!--wucx 2006/12/15 start 添加卡通图片-->
+		<action path="/AddCartoon"  name="cartoonForm"
+			scope="request"
+			type="net.joycool.wap.action.friend.AddCartoonAction">
+			<forward name="success" path="/jcadmin/friend/cartoonList.jsp"
+				redirect="false" />
+		</action>
+		<!--wucx 2006/12/15 end 添加卡通图片-->
+<!-- maning_2010-1-26_图库图片上传_start -->
+<action path="/imgLibAction"
+	type="jc.imglib.ImgLibAttachAction"
+	name="imgLibForm" validate="false">
+	<forward name="success" path="/image/mess.jsp?mid=1"
+		redirect="false" />
+	<forward name="systemFailure" path="/image/mess.jsp?mid=3"
+		redirect="false" />
+</action>
+<!-- maning_2010-1-26_图库图片上传_end -->
+
+	</action-mappings>
+	<message-resources parameter="MessageResources"/>
+</struts-config>

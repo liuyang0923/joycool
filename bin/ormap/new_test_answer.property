@@ -1,0 +1,6 @@
+id:id:int
+testId:test_id:int
+questionCode:question_code:int
+code:code:int
+answer:answer:String
+nextPageCode:next_page_code:int
