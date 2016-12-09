@@ -4,7 +4,7 @@
 	
 %><?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
-<wml><card title="充值系统"><p>
+<wml><card title="支付宝充值系统"><p>
 <%=BaseAction.getTop(request, response)%>
 酷币充值说明：<br/>
 您可以使用移动、联通手机充值卡，换取乐酷社区产品酷币（单位：克(g)）。每1元手机充值卡面额可等值兑换为1酷币，用于乐酷社区道具商城的消费。<br/>
